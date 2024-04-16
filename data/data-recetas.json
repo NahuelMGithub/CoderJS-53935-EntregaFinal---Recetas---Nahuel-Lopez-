@@ -1,0 +1,2370 @@
+[
+  {
+    "name": "Tarta de Manzana",
+    "tiempo": 50,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "manzana",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "azúcar",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "canela",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. Pela y corta las manzanas en rodajas finas. 3. En un tazón grande, mezcla la harina, el azúcar y la canela. 4. Agrega la mantequilla y mezcla hasta obtener una masa arenosa. 5. Engrasa un molde para tarta y coloca la mitad de la masa en la base. 6. Coloca las rodajas de manzana sobre la masa. 7. Cubre con el resto de la masa. 8. Hornea durante 40-45 minutos o hasta que esté dorada y crujiente."
+  },
+  {
+    "name": "Lasaña de Verduras",
+    "tiempo": 60,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "calabacín",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "berenjena",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "salsa de tomate",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mozzarella",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "queso parmesano",
+        "tipo": " lacteo"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. Cocina las láminas de lasaña según las instrucciones del paquete. 3. Corta el calabacín y la berenjena en rodajas finas. 4. En una bandeja para hornear, coloca una capa de salsa de tomate, seguida de una capa de láminas de lasaña, una capa de calabacín y berenjena, y una capa de queso mozzarella. Repite este proceso hasta terminar los ingredientes. 5. Espolvorea queso parmesano rallado sobre la última capa. 6. Hornea durante 30-35 minutos o hasta que la lasaña esté burbujeante y dorada."
+  },
+  {
+    "name": "Salmón al Horno con Hierbas",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "salmón",
+        "tipo": "marico-pescado"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "salvia fresca",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomillo fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 200°C. 2. Coloca los filetes de salmón en una bandeja para hornear. 3. Exprime el jugo de limon sobre el salmón y añade rodajas de limon encima. 4. Picar finamente el ajo, la salvia y el tomillo, y esparcir sobre el salmón. 5. Rocía con aceite de oliva y sazona con sal al gusto. 6. Hornea durante 12-15 minutos o hasta que el salmón esté cocido."
+  },
+  {
+    "name": "Pan de Ajo",
+    "tiempo": 35,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pan",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "perejil fresco",
+        "tipo": "hierba"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. En un tazón, mezcla la mantequilla derretida, el ajo picado, el perejil picado, la sal y la pimienta. 3. Corta el pan en rebanadas, pero sin llegar hasta el fondo. 4. Unta la mezcla de mantequilla y ajo entre las rebanadas de pan. 5. Envuelve el pan en papel de aluminio y hornea durante 15-20 minutos o hasta que esté dorado y crujiente."
+  },
+  {
+    "name": "Pavo Relleno",
+    "tiempo": 180,
+    "ingredientes": [
+      {
+        "nombre": "pavo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "pan rallado",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "apio",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "calditos",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. Prepara el relleno mezclando el pan rallado, la cebolla picada, la zanahoria rallada, el apio picado y la mantequilla derretida. 3. Rellena el pavo con la mezcla de relleno. 4. Coloca el pavo en una bandeja para hornear y vierte el caldo de pollo alrededor. 5. Cubre con papel de aluminio y hornea durante 3 horas o hasta que esté cocido, retirando el papel de aluminio durante la última hora para dorar."
+  },
+  {
+    "name": "Pastel de Zanahoria",
+    "tiempo": 60,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "azúcar",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. Ralla las zanahoria y pica las nueces. 3. En un tazón grande, bate los huevo y agrega el azúcar y el aceite de oliva. 4. Agrega la harina, la canela y la levadura en polvo, y mezcla bien. 5. Incorpora las zanahoria ralladas y las nueces picadas a la mezcla. 6. Engrasa y enharina un molde para pastel y vierte la mezcla. 7. Hornea durante 40-45 minutos o hasta que esté cocido."
+  },
+  {
+    "name": "Tarta de limon",
+    "tiempo": 40,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "azúcar",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "crema",
+        "tipo": " lacteo"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. Exprime el jugo de limon y ralladura de limon. 3. En un tazón grande, mezcla la harina, el azúcar, los huevo, la mantequilla derretida y la leche condensada hasta obtener una masa suave. 4. Agrega el jugo de limon y la ralladura y mezcla bien. 5. Vierte la mezcla en un molde para tarta engrasado y hornea durante 25-30 minutos o hasta que esté dorada."
+  },
+  {
+    "name": "Magdalenas de Vainilla",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "azúcar",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "leche",
+        "tipo": " lacteo"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. En un tazón, bate los huevo con el azúcar hasta que estén espumosos. 3. Agrega la mantequilla derretida, la leche y la vainilla, y mezcla bien. 4. Incorpora la harina y la levadura en polvo y mezcla hasta obtener una masa suave. 5. Vierte la masa en moldes para magdalenas y hornea durante 15-20 minutos o hasta que estén doradas y cocidas."
+  },
+  {
+    "name": "Pollo Asado con  papas",
+    "tiempo": 90,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "papas",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 200°C. 2. Lava y corta las  papas en trozos. 3. En un tazón, mezcla el aceite de oliva, el jugo de limon, el ajo picado, el tomillo picado, la sal y la pimienta. 4. Coloca el pollo en una bandeja para hornear y coloca las  papas alrededor. 5. Vierte la mezcla de aceite de oliva sobre el pollo y las  papas. 6. Hornea durante 75-90 minutos o hasta que el pollo esté dorado y las  papas estén tiernas."
+  },
+  {
+    "name": "Quiche de espinaca y Queso",
+    "tiempo": 50,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "espinaca",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "queso",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "nata",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. En un bol, mezcla la harina, la mantequilla fría en trozos pequeños y una pizca de sal hasta formar una masa. 3. Extiende la masa en un molde para tarta previamente engrasado. 4. Saltea las espinaca en una sartén hasta que se reduzcan. 5. En un bol, bate los huevo con la nata, el queso rallado, la sal, la pimienta y la nuez moscada. 6. Vierte la mezcla de huevo y nata sobre la masa y añade las espinaca. 7. Hornea durante 35-40 minutos o hasta que la quiche esté dorada y cuajada."
+  },
+  {
+    "name": "Pasta al Horno con Salsa de Tomate",
+    "tiempo": 40,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "fideos",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "salsa de tomate",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mozzarella",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "queso parmesano",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. Hierve la pasta en agua con sal según las instrucciones del paquete, pero deja que esté al dente. 3. En una sartén, calienta un poco de aceite de oliva y agrega la salsa de tomate y la albahaca picada. 4. En un bol grande, mezcla la pasta cocida con la salsa de tomate. 5. Coloca la pasta en una bandeja para hornear y espolvorea con queso mozzarella rallado y queso parmesano rallado. 6. Hornea durante 20-25 minutos o hasta que el queso esté derretido y dorado."
+  },
+  {
+    "name": "Tarta de Chocolate",
+    "tiempo": 60,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "azúcar",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "leche",
+        "tipo": " lacteo"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "1. Precalienta el horno a 180°C. 2. En un bol grande, bate los huevo con el azúcar hasta que estén espumosos. 3. Agrega la mantequilla derretida y mezcla bien. 4. Incorpora la harina, el cacao en polvo, la levadura en polvo y la leche, y mezcla hasta obtener una masa suave. 5. Agrega trozos de chocolate negro a la masa. 6. Vierte la masa en un molde para tarta engrasado y hornea durante 30-35 minutos o hasta que esté cocida pero aún húmeda por dentro."
+  },
+  {
+    "name": "Brochetas de Verduras a la Parrilla",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "calabacín",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Corta las verduras en trozos grandes y uniformes. 2. En un tazón, mezcla las verduras con aceite de oliva, sal, pimienta, jugo de limon y hierbas frescas picadas. 3. Ensarta las verduras en brochetas alternando los tipos. 4. Calienta la parrilla a fuego medio-alto y coloca las brochetas. 5. Cocina durante 10-15 minutos, volteando ocasionalmente, hasta que las verduras estén tiernas y ligeramente doradas."
+  },
+  {
+    "name": "Filetes de Pollo a la Parrilla con limon y Hierbas",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "tomillo fresco",
+        "tipo": "hierba"
+      },
+      {
+        "nombre": "romero fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Sazona los filetes de pollo con sal, pimienta y hierbas frescas picadas. 2. Exprime el jugo de limon sobre los filetes de pollo y agrega rodajas de limon. 3. Deja marinar el pollo en la mezcla de aceite de oliva, ajo picado y hierbas frescas durante al menos 30 minutos. 4. Calienta la parrilla a fuego medio-alto y coloca los filetes de pollo. 5. Cocina durante 6-8 minutos por lado o hasta que estén dorados y cocidos por completo."
+  },
+  {
+    "name": "Bistec a la Parrilla con Salsa de Chimichurri",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "res",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "perejil fresco",
+        "tipo": "hierba"
+      },
+      {
+        "nombre": "orégano fresco",
+        "tipo": "hierba"
+      },
+      {
+        "nombre": "vinagre",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Sazona los bistecs con sal, pimienta y ají molido al gusto. 2. En un tazón, mezcla el aceite de oliva, el ajo picado, el perejil picado, el orégano picado, el vinagre y una pizca de sal y pimienta para hacer la salsa de chimichurri. 3. Unta los bistecs con la salsa de chimichurri y deja marinar durante al menos 15 minutos. 4. Calienta la parrilla a fuego medio-alto y coloca los bistecs. 5. Cocina durante 3-4 minutos por lado para obtener un término medio."
+  },
+  {
+    "name": "Portobellos a la Parrilla con Queso de Cabra",
+    "tiempo": 15,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "portobellos",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "queso",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "tomillo fresco",
+        "tipo": "hierba"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Limpia los portobellos y retira los tallos. 2. En un tazón, mezcla aceite de oliva, ajo picado, tomillo fresco picado, sal, pimienta y jugo de limon. 3. Unta los portobellos con la mezcla de aceite de oliva. 4. Calienta la parrilla a fuego medio-alto y coloca los portobellos. 5. Cocina durante 5-7 minutos por lado o hasta que estén tiernos. 6. Al final de la cocción, agrega rodajas de queso de cabra sobre los portobellos y deja que se derrita ligeramente."
+  },
+  {
+    "name": "Brochetas de Camarones y Vegetales",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "camarones",
+        "tipo": "marico-pescado"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "calabacín",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Limpia y pela los camarones, si es necesario. 2. Corta los pimientos, cebollas y calabacines en trozos grandes y uniformes. 3. Ensarta los camarones y los vegetales en brochetas alternando los ingredientes. 4. Rocía las brochetas con aceite de oliva y sazona con sal, pimienta y jugo de limon. 5. Calienta la parrilla a fuego medio-alto y coloca las brochetas. 6. Cocina durante 3-4 minutos por lado o hasta que los camarones estén rosados y cocidos."
+  },
+  {
+    "name": "Costillas de Cerdo a la Parrilla con Salsa Barbacoa",
+    "tiempo": 90,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "cerdo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "salsa barbacoa",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "miel",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mostaza",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "vinagre",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Mezcla la salsa barbacoa, la miel, la mostaza, el vinagre de sidra, la sal y la pimienta en un tazón para hacer la marinada. 2. Unta las costillas de cerdo con la marinada y deja marinar durante al menos 1 hora, o idealmente durante la noche. 3. Calienta la parrilla a fuego medio y coloca las costillas de cerdo. 4. Cocina las costillas durante 60-75 minutos, volteándolas y cepillándolas con la marinada ocasionalmente, hasta que estén tiernas y caramelizadas."
+  },
+  {
+    "name": "Brochetas de Pollo Teriyaki",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "piña",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "salsa teriyaki",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de sésamo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Corta el pollo en trozos y marina en salsa teriyaki durante al menos 30 minutos. 2. Corta los pimientos, cebollas y piñas en trozos grandes y uniformes. 3. Ensarta los trozos de pollo, pimientos, cebollas y piñas en brochetas. 4. Rocía las brochetas con aceite de sésamo y sazona con sal y pimienta al gusto. 5. Calienta la parrilla a fuego medio-alto y coloca las brochetas. 6. Cocina durante 10-12 minutos, volteando ocasionalmente y pincelando con más salsa teriyaki, hasta que el pollo esté cocido."
+  },
+  {
+    "name": "Hamburguesas de Portobello",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "portobello",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pan de hamburguesa",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "queso",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "salsa de soja",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Limpia los portobellos y retira los tallos. 2. En un tazón, mezcla la salsa de soja, el aceite de oliva, la sal y la pimienta. 3. Unta los portobellos con la mezcla de salsa de soja. 4. Calienta la parrilla a fuego medio-alto y coloca los portobellos. 5. Cocina durante 4-5 minutos por lado o hasta que estén tiernos. 6. Durante los últimos minutos de cocción, coloca una loncha de queso suizo sobre cada portobello y deja que se derrita. 7. Sirve los portobellos en pan de hamburguesa con rodajas de cebolla y tus condimentos favoritos."
+  },
+  {
+    "name": "Parrillada de Verduras",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "calabacín",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "berenjena",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "orégano fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Corta las verduras en rodajas gruesas. 2. En un tazón, mezcla las verduras con aceite de oliva, sal, pimienta y hojas de orégano fresco. 3. Calienta la parrilla a fuego medio-alto y coloca las verduras. 4. Cocina durante 3-4 minutos por lado o hasta que estén tiernas y tengan marcas de parrilla."
+  },
+  {
+    "name": "Pinchos de Pollo con Salsa de Cacahuate",
+    "tiempo": 35,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "maní",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "jengibre fresco",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "salsa de soja",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "miel",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "lima",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Corta el pollo en trozos y ensarta en pinchos. 2. En un tazón, mezcla el maní picado, el ajo picado, el jengibre rallado, la salsa de soja, la miel y el jugo de lima para hacer la salsa. 3. Unta los pinchos de pollo con la salsa y deja marinar durante al menos 20 minutos. 4. Calienta la parrilla a fuego medio-alto y coloca los pinchos. 5. Cocina durante 6-8 minutos por lado o hasta que el pollo esté cocido."
+  },
+  {
+    "name": "Brochetas de Res con Marinada de Chimichurri",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "res",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate cherry",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "vinagre",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "perejil fresco",
+        "tipo": "hierba"
+      },
+      {
+        "nombre": "orégano seco",
+        "tipo": "verdura"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Corta la carne en trozos grandes y las verduras en trozos medianos. 2. En un tazón, mezcla el vinagre de vino tinto, el aceite de oliva, el ajo picado, el perejil picado, el orégano y una pizca de sal y pimienta para hacer la marinada. 3. Ensarta la carne y las verduras en brochetas alternando los ingredientes. 4. Unta las brochetas con la marinada y deja marinar durante al menos 10 minutos. 5. Calienta la parrilla a fuego medio-alto y coloca las brochetas. 6. Cocina durante 4-5 minutos por lado o hasta que la carne esté a tu gusto."
+  },
+  {
+    "name": "Salmón a la Parrilla con Salsa de limon y Eneldo",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "salmón",
+        "tipo": "pescado"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "eneldo fresco",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Parrilla",
+    "pasos": "1. Corta el salmón en filetes y sazona con sal y pimienta al gusto. 2. En un tazón, mezcla el aceite de oliva, el ajo picado, el eneldo picado y el jugo de limon. 3. Unta los filetes de salmón con la mezcla de aceite de oliva. 4. Calienta la parrilla a fuego medio-alto y coloca los filetes de salmón. 5. Cocina durante 4-5 minutos por lado o hasta que estén cocidos y ligeramente dorados. 6. Sirve el salmón con rodajas de limon y más eneldo fresco."
+  },
+  {
+    "name": "Tortilla de espinaca",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "espinaca",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "queso",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. En un sartén, saltea la cebolla y las espinaca con un poco de aceite de oliva hasta que estén tiernas. 2. En un tazón, bate los huevo y sazona con sal y pimienta al gusto. 3. Agrega las espinaca y la cebolla salteadas a los huevo batidos y mezcla bien. 4. Calienta un poco más de aceite en el sartén y vierte la mezcla de huevo. 5. Cocina a fuego medio-bajo hasta que la parte inferior esté dorada y la parte superior casi cuajada. 6. Espolvorea queso rallado por encima y luego voltea la tortilla con la ayuda de un plato o tapa de sartén. 7. Cocina por unos minutos más hasta que esté completamente cocida y el queso se haya derretido."
+  },
+  {
+    "name": "Pechugas de Pollo al limon",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. Sazona las pechugas de pollo con sal y pimienta al gusto. 2. En un sartén grande, calienta un poco de aceite de oliva a fuego medio-alto. 3. Agrega las pechugas de pollo al sartén y cocina durante 5-6 minutos por cada lado, o hasta que estén doradas y cocidas por completo. 4. Agrega rodajas de limon y dientes de ajo al sartén durante los últimos minutos de cocción para que se cocinen junto con el pollo y le den sabor. 5. Sirve las pechugas de pollo con las rodajas de limon y ajos cocidos por encima."
+  },
+  {
+    "name": "Tortitas de Plátano",
+    "tiempo": 15,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "plátano",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "canela en polvo",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. Pela y aplasta los plátanos en un tazón con un tenedor hasta obtener un puré. 2. Agrega los huevo y la canela en polvo al puré de plátano y mezcla bien. 3. Calienta un poco de aceite de oliva en un sartén a fuego medio. 4. Vierte pequeñas porciones de la mezcla en el sartén caliente para formar las tortitas. 5. Cocina las tortitas durante 2-3 minutos por cada lado, o hasta que estén doradas y cocidas por dentro. 6. Sirve las tortitas calientes con tu sirope o topping favorito, como miel o frutas frescas."
+  },
+  {
+    "name": "Tacos de Camarones",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "camarones",
+        "tipo": "mariscos"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "cilantro",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tortillas de maíz",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. En un sartén grande, calienta un poco de aceite de oliva a fuego medio. 2. Agrega los camarones al sartén y cocina durante 2-3 minutos por cada lado, o hasta que estén rosados y cocidos por completo. 3. Retira los camarones del sartén y reserva. 4. En el mismo sartén, saltea la cebolla y el tomate picados hasta que estén tiernos. 5. Agrega los camarones cocidos de nuevo al sartén y mezcla con las verduras salteadas. 6. Exprime jugo de limon sobre los camarones y espolvorea con cilantro fresco picado. 7. Calienta las tortillas de maíz en el sartén. 8. Sirve los camarones con verduras en las tortillas calientes y disfruta de tus tacos de camarones."
+  },
+  {
+    "name": "huevo Revueltos con espinaca",
+    "tiempo": 15,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "espinaca",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "queso rallado",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. En un sartén, derrite un poco de mantequilla a fuego medio. 2. Agrega las espinaca al sartén y cocínalas hasta que se marchiten. 3. Bate los huevo en un tazón y sazona con sal y pimienta al gusto. 4. Vierte los huevo batidos sobre las espinaca en el sartén. 5. Revuelve constantemente los huevo hasta que estén cocidos. 6. Justo antes de que los huevo estén completamente cocidos, agrega el queso rallado y mezcla bien. 7. Sirve los huevo revueltos calientes."
+  },
+  {
+    "name": "Tortitas de Avena y Plátano",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "plátano",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "avena",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "aceite de coco",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "miel",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "canela en polvo",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. En un tazón, aplasta los plátanos con un tenedor hasta obtener un puré. 2. Agrega los huevo, la avena, la miel y la canela en polvo al puré de plátano y mezcla bien. 3. Calienta un poco de aceite de coco en un sartén a fuego medio. 4. Vierte pequeñas porciones de la mezcla en el sartén caliente para formar las tortitas. 5. Cocina las tortitas durante 2-3 minutos por cada lado, o hasta que estén doradas y cocidas por dentro. 6. Sirve las tortitas calientes con tu sirope o topping favorito."
+  },
+  {
+    "name": "Salteado de Tofu y Verduras",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "tofu",
+        "tipo": "vegetal"
+      },
+      {
+        "nombre": "brócoli",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "jengibre",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "salsa de soja",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de sésamo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "arroz",
+        "tipo": "cereal-harina"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. Corta el tofu en cubos y las verduras en trozos pequeños. 2. Calienta un poco de aceite de sésamo en un sartén a fuego medio. 3. Agrega el tofu al sartén y cocínalo hasta que esté dorado por todos lados. 4. Agrega la cebolla, el ajo y el jengibre picados al sartén y saltea durante unos minutos. 5. Agrega el brócoli y la zanahoria al sartén y cocínalos hasta que estén tiernos pero crujientes. 6. Agrega la salsa de soja al gusto y mezcla bien. 7. Sirve el salteado caliente sobre arroz cocido."
+  },
+  {
+    "name": "Quesadillas de Champiñones",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "champiñones",
+        "tipo": "hongo"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "queso rallado",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "tortillas de maíz",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. En un sartén, calienta un poco de aceite de oliva a fuego medio. 2. Agrega la cebolla picada y los champiñones rebanados al sartén y saltea hasta que estén dorados y tiernos. 3. Retira los champiñones y la cebolla del sartén y reserva. 4. En el mismo sartén, coloca una tortilla de maíz y espolvorea con queso rallado. 5. Agrega una capa de champiñones y cebolla salteados sobre el queso. 6. Cubre con otra tortilla de maíz y presiona ligeramente. 7. Cocina la quesadilla durante unos minutos por cada lado, o hasta que esté dorada y el queso esté derretido. 8. Corta la quesadilla en trozos y sirve caliente."
+  },
+  {
+    "name": "Tortilla de  papas",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "papas",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. Pela las  papas y córtalas en rodajas finas. 2. En un sartén grande, calienta abundante aceite de oliva a fuego medio. 3. Agrega las  papas y la cebolla al sartén y fríelas hasta que estén doradas y tiernas. 4. Retira las  papas y la cebolla del sartén y escúrrelas sobre papel absorbente para eliminar el exceso de aceite. 5. En un tazón, bate los huevo y sazona con sal y pimienta al gusto. 6. Vierte los huevo batidos sobre las  papas y la cebolla en el sartén. 7. Cocina la tortilla a fuego medio-bajo durante unos minutos hasta que los bordes estén dorados y el centro esté casi cuajado. 8. Con la ayuda de un plato o tapa de sartén, voltea la tortilla y cocina por unos minutos más hasta que esté completamente cuajada y dorada por ambos lados. 9. Sirve la tortilla caliente en porciones y disfruta."
+  },
+  {
+    "name": "Salmón a la Parrilla con limon y Hierbas",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "filetes de salmón",
+        "tipo": "pescado"
+      },
+      {
+        "nombre": "limon",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "perejil",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. En un tazón pequeño, mezcla el jugo de limon, el ajo picado, el perejil picado, el aceite de oliva, la sal y la pimienta. 2. Coloca los filetes de salmón en un plato y vierte la mezcla de limon y hierbas sobre ellos. Marina durante 10-15 minutos. 3. Calienta un sartén a fuego medio-alto y agrega un poco de aceite de oliva. 4. Coloca los filetes de salmón en el sartén y cocina durante 3-4 minutos por cada lado, o hasta que estén dorados por fuera y cocidos por dentro. 5. Sirve el salmón caliente con rodajas de limon adicionales y una guarnición de ensalada fresca."
+  },
+  {
+    "name": "Fajitas de Pollo",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tortillas de maíz",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "comino",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "paprika",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. Corta el pollo en tiras finas y sazona con sal, pimienta, comino y paprika al gusto. 2. Calienta un poco de aceite de oliva en un sartén a fuego medio-alto. 3. Agrega el pollo al sartén y cocina hasta que esté dorado y cocido por completo. 4. Retira el pollo del sartén y reserva. 5. En el mismo sartén, agrega un poco más de aceite si es necesario y saltea las tiras de pimiento y cebolla hasta que estén tiernas. 6. Agrega los tomates picados y cocina por unos minutos más. 7. Regresa el pollo al sartén y mezcla todo junto. 8. Calienta las tortillas de maíz en el sartén. 9. Sirve las fajitas calientes con tus acompañamientos favoritos, como guacamole, crema agria y salsa."
+  },
+  {
+    "name": "Pancakes de Manzana y Canela",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "manzana",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "leche",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "azúcar",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "canela en polvo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mantequilla",
+        "tipo": " lacteo"
+      }
+    ],
+    "lugar": "Sartén",
+    "pasos": "1. En un tazón grande, mezcla la harina, el azúcar y la canela en polvo. 2. En otro tazón, bate los huevo y luego agrega la leche y la mantequilla derretida. Mezcla bien. 3. Vierte la mezcla líquida sobre los ingredientes secos y revuelve hasta que se incorporen todos los ingredientes. 4. Pela y corta las manzanas en rodajas finas. 5. Calienta un poco de mantequilla en un sartén a fuego medio. 6. Vierte un poco de masa en el sartén caliente y coloca algunas rodajas de manzana encima. 7. Cocina los pancakes hasta que aparezcan burbujas en la superficie, luego dales la vuelta y cocina por el otro lado hasta que estén dorados. 8. Repite el proceso con el resto de la masa. 9. Sirve los pancakes calientes con un poco de mantequilla y sirope de arce."
+  },
+  {
+    "name": "Ensalada de Quinoa y Vegetales",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "quinoa",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pepino",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla morada",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceitunas negras",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "queso",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "vinagre",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Bol",
+    "pasos": "1. Cocina la quinoa de acuerdo con las instrucciones del paquete y deja que se enfríe. 2. Corta los tomates, pepinos, pimientos y cebolla morada en trozos pequeños y agrégalos al bol. 3. Agrega las aceitunas negras rebanadas y el queso feta desmenuzado al bol. 4. En un tazón pequeño, mezcla el aceite de oliva, el vinagre balsámico, la sal y la pimienta para hacer el aderezo. 5. Vierte el aderezo sobre la ensalada y mezcla bien. 6. Sirve la ensalada de quinoa y vegetales fría y disfruta."
+  },
+  {
+    "name": "Smoothie de Frutas Tropicales",
+    "tiempo": 10,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "piña",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "plátano",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "yogur",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "naranja",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "miel",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Bol",
+    "pasos": "1. Pela y corta las frutas tropicales en trozos pequeños y agrégalas al bol. 2. Agrega el yogur, el jugo de naranja y la miel al bol. 3. Usa una licuadora o una batidora de mano para mezclar todos los ingredientes hasta obtener una consistencia suave. 4. Si es necesario, ajusta la dulzura agregando más miel al gusto. 5. Sirve el smoothie de frutas tropicales en vasos altos y decora con rodajas de fruta si lo deseas."
+  },
+  {
+    "name": "Ensalada de Pasta Mediterránea",
+    "tiempo": 15,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "fideos",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pepino",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "queso",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Bol",
+    "pasos": "1. Cocina la pasta de acuerdo con las instrucciones del paquete, enjuaga con agua fría y deja que se enfríe. 2. Corta los tomates cherry, las aceitunas kalamata, el pepino y la cebolla roja en trozos pequeños y agrégalos al bol. 3. Agrega el queso feta desmenuzado al bol. 4. En un tazón pequeño, mezcla el aceite de oliva, el jugo de limon, el orégano seco, la sal y la pimienta para hacer el aderezo. 5. Vierte el aderezo sobre la ensalada de pasta y mezcla bien. 6. Sirve la ensalada de pasta mediterránea fría o a temperatura ambiente y disfruta."
+  },
+  {
+    "name": "Ensalada de Frutas Frescas",
+    "tiempo": 15,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "uva",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "naranja",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "manzana",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "plátano",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "miel",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Bol",
+    "pasos": "1. Corta todas las frutas en trozos pequeños y agrégalas a un bol grande. 2. Exprime el jugo de limon sobre las frutas para evitar que se oxiden y mezcla suavemente. 3. Agrega un chorrito de miel sobre las frutas y mezcla nuevamente para combinar todos los sabores. 4. Decora la ensalada de frutas con hojas de menta fresca antes de servir. 5. Sirve la ensalada de frutas frescas fría y disfruta como postre o merienda saludable."
+  },
+  {
+    "name": "Bowl de Yogur con Granola y Frutas",
+    "tiempo": 10,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "yogur",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "plátano",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "miel",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Bol",
+    "pasos": "1. Coloca una capa de yogur natural en el fondo de un bol grande. 2. Agrega una capa de granola sobre el yogur. 3. Corta el plátano  agrégalas al bol. 4. Añade algunos arándanos frescos encima de las frutas. 5. Rocía un poco de miel sobre el bowl de yogur con granola y frutas. 6. Sirve el bowl de yogur con granola y frutas frío y disfruta como desayuno o merienda."
+  },
+  {
+    "name": "Bowl de Avena con Frutas y Frutos Secos",
+    "tiempo": 10,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "avena",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "leche",
+        "tipo": " lacteo"
+      },
+      {
+        "nombre": "plátano",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "manzana",
+        "tipo": "fruta"
+      },
+      {
+        "nombre": "miel",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Bol",
+    "pasos": "1. En un bol grande, mezcla la avena con la leche y deja reposar durante unos minutos para que la avena absorba la leche. 2. Corta el plátano y la manzana en trozos pequeños y agrégalos al bol. 3. Agrega los arándanos secos y las almendras picadas al bol. 4. Mezcla bien todos los ingredientes para distribuir uniformemente las frutas y los frutos secos. 5. Espolvorea un poco de canela en polvo sobre el bowl de avena. 6. Rocía un poco de miel sobre la parte superior del bowl de avena con frutas y frutos secos. 7. Sirve el bowl de avena con frutas y frutos secos caliente y disfruta como desayuno nutritivo."
+  },
+  {
+    "name": "Bowl de Espaguetis de Calabacín",
+    "tiempo": 15,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "calabacín",
+        "tipo": "hortaliza"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "queso parmesano",
+        "tipo": " lacteo"
+      }
+    ],
+    "lugar": "Bol",
+    "pasos": "1. Con un spiralizer, corta el calabacín en forma de espaguetis y colócalos en un bol grande. 2. Corta los tomates cherry por la mitad y agrégalos al bol junto con las aceitunas negras rebanadas. 3. Corta finamente la albahaca fresca y agrégala al bol. 4. Rocía un poco de aceite de oliva sobre los espaguetis de calabacín y mezcla bien para cubrir. 5. Sazona con sal y pimienta al gusto y mezcla nuevamente. 6. Espolvorea queso parmesano rallado sobre el bowl de espaguetis de calabacín antes de servir. 7. Sirve el bowl de espaguetis de calabacín como acompañamiento o plato principal y disfruta de una comida ligera y saludable."
+  },
+  {
+    "name": "Guiso de lenteja",
+    "tiempo": 40,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "lenteja",
+        "tipo": "legumbre"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "calditos",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Enjuaga las lenteja y escúrrelas bien. 2. Calienta un poco de aceite de oliva en una olla grande a fuego medio. 3. Agrega la cebolla picada y saltea hasta que esté transparente. 4. Agrega las zanahoria y los tomates picados a la olla y cocina por unos minutos. 5. Incorpora las lenteja y el caldo de verduras a la olla. 6. Condimenta con sal, pimienta y comino al gusto. 7. Lleva la sopa a ebullición, luego reduce el fuego y cocina a fuego lento durante aproximadamente 30 minutos o hasta que las lenteja estén tiernas. 8. Sirve la sopa caliente, espolvorea con cilantro fresco picado y disfruta."
+  },
+  {
+    "name": "Arroz con Pollo",
+    "tiempo": 45,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "arroz",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "calditos",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Calienta un poco de aceite de oliva en una olla grande a fuego medio-alto. 2. Agrega el pollo cortado en trozos y dóralo por todos lados. 3. Retira el pollo de la olla y reserva. 4. En la misma olla, agrega la cebolla, el pimiento y el tomate picados y cocina hasta que estén tiernos. 5. Agrega el arroz a la olla y mezcla bien con las verduras. 6. Vierte el caldo de pollo sobre el arroz y las verduras. 7. Condimenta con sal y pimienta al gusto. 8. Coloca el pollo dorado nuevamente en la olla. 9. Lleva la mezcla a ebullición, luego reduce el fuego, tapa la olla y cocina a fuego lento durante unos 20-25 minutos o hasta que el arroz esté cocido y el pollo esté tierno. 10. Sirve el arroz con pollo caliente, espolvorea con perejil fresco picado y disfruta."
+  },
+  {
+    "name": "Estofado de Ternera",
+    "tiempo": 120,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "ternera",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "papas",
+        "tipo": "hortaliza"
+      },
+      {
+        "nombre": "caldo de carne",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "vino tinto",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "tomillo fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Corta la ternera en trozos y sazona con sal y pimienta. 2. Calienta un poco de aceite de oliva en una olla grande a fuego medio-alto. 3. Agrega la ternera y dora por todos lados. 4. Retira la ternera de la olla y reserva. 5. En la misma olla, agrega la cebolla picada y cocina hasta que esté transparente. 6. Agrega las zanahoria y las  papas cortadas en trozos grandes a la olla. 7. Vierte el vino tinto en la olla y raspa el fondo para desprender cualquier trozo dorado. 8. Agrega la ternera dorada nuevamente a la olla. 9. Vierte el caldo de carne sobre la mezcla y agrega el tomillo fresco. 10. Lleva el estofado a ebullición, luego reduce el fuego, tapa la olla y cocina a fuego lento durante aproximadamente 1.5 a 2 horas o hasta que la carne esté tierna y los vegetales estén cocidos. 11. Sirve el estofado de ternera caliente y disfruta."
+  },
+  {
+    "name": "Chili con Carne",
+    "tiempo": 60,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "carne molida de res",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "frijoles rojos",
+        "tipo": "legumbre"
+      },
+      {
+        "nombre": "maíz",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "caldo de carne",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "salsa de tomate",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "chile en polvo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "comino en polvo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta de cayena",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "cilantro fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Calienta un poco de aceite de oliva en una olla grande a fuego medio-alto. 2. Agrega la cebolla y el pimiento picados y cocina hasta que estén tiernos. 3. Agrega la carne molida de res a la olla y cocina hasta que esté dorada. 4. Agrega los tomates picados, los frijoles rojos escurridos, el maíz, el caldo de carne y la salsa de tomate a la olla. 5. Condimenta con chile en polvo, comino, pimienta de cayena, sal y pimienta al gusto. 6. Lleva el chili a ebullición, luego reduce el fuego y cocina a fuego lento durante aproximadamente 30-40 minutos, revolviendo ocasionalmente. 7. Prueba y ajusta la sazón según sea necesario. 8. Sirve el chili caliente, espolvorea con cilantro fresco picado y disfruta."
+  },
+  {
+    "name": "Sopa de Verduras",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "caldo de verduras",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "papa",
+        "tipo": "hortaliza"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "apio",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "espinaca",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Calienta un poco de aceite de oliva en una olla grande a fuego medio. 2. Agrega la cebolla picada y cocina hasta que esté transparente. 3. Agrega las zanahoria, las papas y el apio cortados en trozos a la olla y cocina por unos minutos. 4. Agrega el caldo de verduras a la olla y lleva a ebullición. 5. Reduce el fuego y deja cocinar a fuego lento durante unos 15-20 minutos, o hasta que las verduras estén tiernas. 6. Agrega los tomates y las espinaca a la olla y cocina por unos minutos más. 7. Condimenta con sal y pimienta al gusto. 8. Sirve la sopa caliente y disfruta."
+  },
+  {
+    "name": "Estofado de Garbanzos",
+    "tiempo": 60,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "garbanzo",
+        "tipo": "legumbre"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento rojo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "caldo de verduras",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "comino en polvo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimentón dulce",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "cilantro fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Remoja los garbanzos durante la noche en agua fría. 2. En una olla grande, calienta un poco de aceite de oliva a fuego medio. 3. Agrega la cebolla picada y el pimiento rojo y cocina hasta que estén tiernos. 4. Agrega los tomates, las zanahoria y los garbanzos escurridos a la olla y cocina por unos minutos. 5. Agrega el caldo de verduras a la olla y lleva a ebullición. 6. Reduce el fuego y deja cocinar a fuego lento durante aproximadamente 45-50 minutos, o hasta que los garbanzos estén tiernos. 7. Condimenta con sal, pimienta, comino y pimentón dulce al gusto. 8. Sirve el estofado caliente, espolvorea con cilantro fresco picado y disfruta."
+  },
+  {
+    "name": "Guiso de Pollo con Verduras",
+    "tiempo": 45,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "caldo de pollo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "perejil fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Calienta un poco de aceite de oliva en una olla grande a fuego medio-alto. 2. Agrega el pollo cortado en trozos y dóralo por todos lados. 3. Retira el pollo de la olla y reserva. 4. En la misma olla, agrega la cebolla, el pimiento y el tomate picados y cocina hasta que estén tiernos. 5. Agrega las zanahoria cortadas en rodajas a la olla. 6. Coloca el pollo dorado nuevamente en la olla. 7. Vierte el caldo de pollo sobre la mezcla. 8. Condimenta con sal y pimienta al gusto. 9. Lleva la mezcla a ebullición, luego reduce el fuego, tapa la olla y cocina a fuego lento durante unos 20-25 minutos o hasta que el pollo esté tierno y las verduras estén cocidas. 10. Sirve el guiso caliente, espolvorea con perejil fresco picado y disfruta."
+  },
+  {
+    "name": "Pasta con Salsa de Tomate y Albahaca",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pasta",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "albahaca fresca",
+        "tipo": "hierba"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Cocina la pasta en una olla grande con agua hirviendo y sal, siguiendo las instrucciones del paquete. 2. Mientras tanto, calienta un poco de aceite de oliva en otra olla a fuego medio. 3. Agrega la cebolla picada y el ajo picado y cocina hasta que estén dorados. 4. Agrega los tomates picados a la olla y cocina hasta que se ablanden. 5. Condimenta con sal y pimienta al gusto. 6. Agrega las hojas de albahaca fresca picadas a la salsa de tomate. 7. Escurre la pasta cocida y mézclala con la salsa de tomate en la olla. 8. Cocina por unos minutos más para que la pasta se impregne bien de la salsa. 9. Sirve la pasta caliente y disfruta."
+  },
+  {
+    "name": "Guiso de lenteja",
+    "tiempo": 45,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "lenteja",
+        "tipo": "legumbre"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "caldo de verduras",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "comino en polvo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "cilantro fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Enjuaga las lenteja y escúrrelas bien. 2. Calienta un poco de aceite de oliva en una olla grande a fuego medio. 3. Agrega la cebolla picada y cocina hasta que esté transparente. 4. Agrega las zanahoria y los tomates picados a la olla y cocina por unos minutos. 5. Incorpora las lenteja y el caldo de verduras a la olla. 6. Condimenta con sal, pimienta y comino al gusto. 7. Lleva el guiso a ebullición, luego reduce el fuego y cocina a fuego lento durante aproximadamente 30-35 minutos o hasta que las lenteja estén tiernas. 8. Sirve el guiso caliente, espolvorea con cilantro fresco picado y disfruta."
+  },
+  {
+    "name": "Puchero de Pollo",
+    "tiempo": 60,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "papas",
+        "tipo": "hortaliza"
+      },
+      {
+        "nombre": "calabacín",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "calditos",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "perejil fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Calienta un poco de aceite de oliva en una olla grande a fuego medio. 2. Agrega el pollo cortado en trozos y dóralo por todos lados. 3. Agrega las zanahoria, las  papas y el calabacín cortados en trozos grandes a la olla. 4. Vierte el caldo de pollo sobre los ingredientes en la olla. 5. Condimenta con sal y pimienta al gusto. 6. Lleva el puchero a ebullición, luego reduce el fuego, tapa la olla y cocina a fuego lento durante aproximadamente 40-45 minutos o hasta que las verduras estén tiernas y el pollo esté cocido. 7. Sirve el puchero caliente, espolvorea con perejil fresco picado y disfruta."
+  },
+  {
+    "name": "Arroz con Verduras",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "arroz",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "calditos",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "perejil fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Olla",
+    "pasos": "1. Calienta un poco de aceite de oliva en una olla grande a fuego medio. 2. Agrega la cebolla picada y el pimiento picado y cocina hasta que estén tiernos. 3. Incorpora la zanahoria rallada a la olla y cocina por unos minutos. 4. Agrega el arroz a la olla y cocina por un par de minutos más, revolviendo ocasionalmente. 5. Vierte el caldo de verduras caliente sobre el arroz en la olla. 6. Condimenta con sal y pimienta al gusto. 7. Lleva el arroz a ebullición, luego reduce el fuego, tapa la olla y cocina a fuego lento durante aproximadamente 15-20 minutos o hasta que el arroz esté tierno y haya absorbido todo el líquido. 8. Sirve el arroz con verduras caliente, espolvorea con perejil fresco picado y disfruta."
+  },
+  {
+    "name": "Tortilla de Vegetales al Disco",
+    "tiempo": 30,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "calabacín",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "orégano fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Disco",
+    "pasos": "1. Calienta el disco a fuego medio y agrega un poco de aceite de oliva. 2. Agrega la cebolla, el pimiento, el tomate y el calabacín cortados en trozos al disco y cocina hasta que estén tiernos. 3. Bate los huevo en un bol y viértelos sobre las verduras en el disco. 4. Condimenta con sal, pimienta y orégano al gusto. 5. Cocina la tortilla en el disco hasta que esté dorada por ambos lados. 6. Sirve la tortilla caliente y disfruta."
+  },
+  {
+    "name": "Bife de Chorizo al Disco",
+    "tiempo": 20,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "ternera",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Disco",
+    "pasos": "1. Calienta el disco a fuego medio-alto. 2. Condimenta el bife de chorizo con sal gruesa y pimienta al gusto. 3. Agrega un poco de aceite de oliva al disco caliente. 4. Coloca el bife de chorizo en el disco y cocina a fuego medio-alto durante aproximadamente 5-7 minutos por cada lado, o hasta que esté cocido a tu gusto. 5. Retira el bife de chorizo del disco, deja reposar por unos minutos y luego corta en rodajas. 6. Sirve el bife de chorizo caliente y disfruta."
+  },
+  {
+    "name": "Empanadas de Carne al Disco",
+    "tiempo": 40,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "carne picada",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "huevo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Disco",
+    "pasos": "1. Calienta el disco a fuego medio y agrega un poco de aceite de oliva. 2. Sofríe la cebolla y el pimiento picados en el disco hasta que estén tiernos. 3. Agrega la carne picada al disco y cocina hasta que esté dorada. 4. Incorpora las aceitunas picadas y los huevo duros cortados en trozos al disco y mezcla bien. 5. Condimenta con sal, pimienta y comino al gusto. 6. Extiende la masa para empanadas sobre el disco y rellena con la mezcla de carne. 7. Dobla la masa sobre el relleno y sella los bordes con un tenedor. 8. Cocina las empanadas en el disco hasta que estén doradas por ambos lados. 9. Sirve las empanadas de carne caliente y disfruta."
+  },
+  {
+    "name": "Pollo al Disco con Vegetales",
+    "tiempo": 40,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Disco",
+    "pasos": "1. Calienta el disco a fuego medio y agrega un poco de aceite de oliva. 2. Corta el pollo en trozos y agrégalo al disco, cocinando hasta que esté dorado por todos lados. 3. Agrega la cebolla, el pimiento, el tomate y la zanahoria cortados en trozos al disco y cocina hasta que estén tiernos. 4. Condimenta con sal, pimienta y pimentón al gusto. 5. Cocina todo junto por unos minutos más hasta que los sabores se mezclen bien. 6. Sirve el pollo al disco con vegetales caliente y disfruta."
+  },
+  {
+    "name": "Bife de Lomo al Disco",
+    "tiempo": 25,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "res",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Disco",
+    "pasos": "1. Calienta el disco a fuego medio-alto. 2. Condimenta el bife de lomo con sal gruesa y pimienta al gusto. 3. Agrega un poco de aceite de oliva al disco caliente. 4. Coloca el bife de lomo en el disco y cocina a fuego medio-alto durante aproximadamente 5-7 minutos por cada lado, o hasta que esté cocido a tu gusto. 5. Retira el bife de lomo del disco, deja reposar por unos minutos y luego corta en rodajas. 6. Sirve el bife de lomo caliente y disfruta."
+  },
+  {
+    "name": "Arroz con Pollo al Disco",
+    "tiempo": 45,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "pollo",
+        "tipo": "carne"
+      },
+      {
+        "nombre": "arroz",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "tomate",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "caldo de pollo",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      }
+    ],
+    "lugar": "Disco",
+    "pasos": "1. Calienta el disco a fuego medio y agrega un poco de aceite de oliva. 2. Corta el pollo en trozos y agrégalo al disco, cocinando hasta que esté dorado por todos lados. 3. Agrega la cebolla, el pimiento y el tomate picados al disco y cocina hasta que estén tiernos. 4. Incorpora el arroz al disco y mezcla bien con los ingredientes. 5. Vierte el caldo de pollo caliente sobre el arroz en el disco. 6. Condimenta con sal, pimienta y pimentón dulce al gusto. 7. Lleva el arroz a ebullición, luego reduce el fuego, tapa el disco y cocina a fuego lento durante aproximadamente 20-25 minutos, o hasta que el arroz esté cocido. 8. Sirve el arroz con pollo caliente y disfruta."
+  },
+  {
+    "name": "Vegetales Salteados al Disco",
+    "tiempo": 15,
+    "img": "../img.cambiar.jpg",
+    "ingredientes": [
+      {
+        "nombre": "calabacín",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "zanahoria",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "pimiento",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "cebolla",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "ajo",
+        "tipo": "verdura"
+      },
+      {
+        "nombre": "aceite de oliva",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "sal",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "pimienta",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "tomillo fresco",
+        "tipo": "hierba"
+      }
+    ],
+    "lugar": "Disco",
+    "pasos": "1. Calienta el disco a fuego medio-alto y agrega un poco de aceite de oliva. 2. Corta los vegetales en tiras o trozos pequeños. 3. Agrega los vegetales al disco caliente y saltea durante unos minutos, revolviendo constantemente. 4. Condimenta con sal, pimienta y tomillo fresco al gusto. 5. Continúa salteando hasta que los vegetales estén tiernos pero aún crujientes. 6. Sirve los vegetales salteados calientes y disfruta."
+  }
+]
