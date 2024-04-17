@@ -1,0 +1,44 @@
+//-----------------------------------------------------
+
+
+Modal:
+Modal para filtrar ingredientes
+
+
+//--------------------------------------------------
+
+funciones para crear receta 
+
+//----------------------------------------------
+
+local storage:
+al cargar la pagina lee y me marca cuales cree yo mismo
+los Favoritos
+cargar los que creo yo.
+
+//------------------------------------------
+
+bd:
+agregar todas las imagenes
+
+//-------------------------------
+
+funciones de filtrado
+
+
+//----------------------------
+
+Estetica:
+web
+cards
+Modal
+
+//-------------------------------
+libreria
+
+estructura:
+html de creacion
+css y sass
+
+//---------------------------------------------- LISTOS 
+

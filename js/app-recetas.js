@@ -1,49 +1,41 @@
 
 //----------------------------------------------------- Obtener DATA
-
-let todosLosIngredientes = []
 let todasLasRecetas = []
+let todosLosIngredientes = []
 
 window.addEventListener('DOMContentLoaded', () => {
-
   fetch('../data/data-recetas.json')
     .then(respuesta => {
       return respuesta.json()
     })
     .then(datos => {
-      completarLista(datos, todasLasRecetas)
-      recetasConSarten()
+      crearRecetas(datos)
     })
     .catch(() => {
       alertaMensaje("No se pudieron cargar correctamente las recetas.")
-    }
-    );
-
+    })
   fetch('../data/data-ingredientes.json')
     .then(respuesta => {
       return respuesta.json()
     })
     .then(datos => {
-      completarLista(datos, todosLosIngredientes)
+      crearIngredientes(datos)
     })
     .catch(() => {
       alertaMensaje("No se pudieron cargar correctamente los ingredientes.")
-    }
-    )
+    })
 })
 
-function completarLista(items, listaACompletar) {
-  items.forEach(item =>  listaACompletar.push(item))
+function crearRecetas(items){
+items.forEach(({name, tiempo, img, ingredientes, lugar, pasos})=>{
+  let nuevaReceta = new Receta(name, tiempo, img, ingredientes, lugar, pasos)
+  todasLasRecetas.push(nuevaReceta)
+  return todasLasRecetas
+})
 }
 
-function recetasConSarten(){
-  let recetasenSarten = []
-  todasLasRecetas.forEach((receta)=>{
-
-    if(receta.lugar == "Sartén"){recetasenSarten.push(receta)}
-  })
-console.log("las recetas en sarten son" + recetasenSarten.length)
-}
+function crearIngredientes(items) {
+  items.forEach(item =>  todosLosIngredientes.push(item)  ) }
 
 //------------------------- dibujar la receta
 
@@ -68,7 +60,7 @@ function dibujarMenu(recetas) {
   })
 }
 
-//-----------------------------
+//---------------------------------------------------------------------------------------------------------------------------------
 
 
 class Receta {
@@ -83,28 +75,24 @@ class Receta {
   listaNombresIngredientes() {
           let ingredientesTotales = this.ingredientes.map(ingrediente => ingrediente.nombre); 
       return ingredientesTotales;
-  }
- 
+  } 
   esVegetariano() {
       let esVegetariano = true;
       this.ingredientes.forEach(ingrediente => {
-          ingrediente.tipo === "Carne" && (esVegetariano = false)
-        
-      })
+          ingrediente.tipo === "carne" && (esVegetariano = false)
+         })
       return esVegetariano;
   }
-
   esVegano() {
       let esVegano = true;
       
       this.ingredientes.forEach(ingrediente => {
-          if (ingrediente.tipo === "carne" || ingrediente.nombre == 'huevos' || ingrediente.tipo === "lacteo") {
+          if (ingrediente.tipo === "carne" || ingrediente.nombre == 'huevo' || ingrediente.tipo === "lacteo") {
               esVegano = false
           }
       })
       return esVegano;
   }
-
   esAptoCeliaco() {
       let esAptoCeliaco = true;
       this.ingredientes.forEach(ingrediente => {
@@ -115,9 +103,23 @@ class Receta {
   }
 }
 
+class Ingrediente{
+    constructor (nombre, tipo) {
+      this.nombre = nombre; 
+      this.tipo = tipo;      
+    }
+ }
 
+//---------------------------------------------------------------------------------------------------------------------------------
 
-function Ingrediente(nombre, tipo) {
-  this.nombre = nombre;   // Nombre del ingrediente. Tipo String
-  this.tipo = tipo;     // Tipo del ingrediente. Cane, verdura, etc.Ver Tipos de tipoDeIngrediente. 
+//--------- filtros
+function recetasConSarten(){
+  let recetasenSarten = []
+  todasLasRecetas.forEach((receta)=>{
+
+    if(receta.lugar == "Sartén"){recetasenSarten.push(receta)}
+  })
+
 }
+
+console.log(todasLasRecetas[0])
