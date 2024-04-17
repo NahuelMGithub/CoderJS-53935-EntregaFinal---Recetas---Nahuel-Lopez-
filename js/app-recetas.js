@@ -1,19 +1,42 @@
-
 //----------------------------------------------------- Obtener DATA
-let todasLasRecetas = []
 let todosLosIngredientes = []
+let todasLasRecetas = []
 
-window.addEventListener('DOMContentLoaded', () => {
+
+/* window.addEventListener('DOMContentLoaded', async  () => {
+      try {
+      const llamada = await fetch('../data/data-recetas.json')
+      const respuesta = await llamada.json()
+       await respuesta.forEach(dato=>todasLasRecetas.push(dato))
+       console.log(todasLasRecetas[0]) //--------- PERFECTO
+       } catch (error) {
+      alertaMensaje("error de carga")
+     }
+ })
+
+ 
+ console.log(todasLasRecetas[0]) //--------- UNDEFINED
+ */
+
+
+window.addEventListener('DOMContentLoaded',  () => {
   fetch('../data/data-recetas.json')
     .then(respuesta => {
       return respuesta.json()
     })
     .then(datos => {
-      crearRecetas(datos)
-    })
+         datos.forEach((dato)=>todasLasRecetas.push(dato))
+      console.log(todasLasRecetas[0]) //--------- PERFECTO
+      return todasLasRecetas
+     })
     .catch(() => {
       alertaMensaje("No se pudieron cargar correctamente las recetas.")
     })
+  })
+  console.log(todasLasRecetas[0]) //--------- UNDEFINED
+
+
+    /*
   fetch('../data/data-ingredientes.json')
     .then(respuesta => {
       return respuesta.json()
@@ -25,14 +48,14 @@ window.addEventListener('DOMContentLoaded', () => {
       alertaMensaje("No se pudieron cargar correctamente los ingredientes.")
     })
 })
-
 function crearRecetas(items){
 items.forEach(({name, tiempo, img, ingredientes, lugar, pasos})=>{
   let nuevaReceta = new Receta(name, tiempo, img, ingredientes, lugar, pasos)
   todasLasRecetas.push(nuevaReceta)
-  return todasLasRecetas
+  console.log("desde 32 " + todasLasRecetas[0])
+  
 })
-}
+} */
 
 function crearIngredientes(items) {
   items.forEach(item =>  todosLosIngredientes.push(item)  ) }
@@ -59,6 +82,7 @@ function dibujarMenu(recetas) {
     contenedorRecetas.innerHTML = html
   })
 }
+
 
 //---------------------------------------------------------------------------------------------------------------------------------
 
@@ -113,13 +137,13 @@ class Ingrediente{
 //---------------------------------------------------------------------------------------------------------------------------------
 
 //--------- filtros
-function recetasConSarten(){
-  let recetasenSarten = []
+function recetasPorLugarDeCocina(lugarCocina){
+  // ojo que si es indistitno, tiene q filtrar todas
+  let recetasPorLugar = []
   todasLasRecetas.forEach((receta)=>{
-
-    if(receta.lugar == "Sartén"){recetasenSarten.push(receta)}
+    if(receta.lugar == lugarCocina){recetasPorLugar.push(receta)}
   })
-
+return recetasPorLugar
 }
 
-console.log(todasLasRecetas[0])
+// filtrado por dieta, usa metodos de las propias recetas
