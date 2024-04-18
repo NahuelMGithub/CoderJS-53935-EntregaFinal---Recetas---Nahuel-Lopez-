@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
   <script src="js/libreria.js" defer></script>
   <script src="js/app-recetas.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
+
 <body>
-<header class="header"><button>Crear Recetas</button></header>
-<main class="main">
-  <section class="clasificador-contenedor">
+  <header class="header"><button>Crear Recetas</button></header>
+  <main class="main">
+    <section class="clasificador-contenedor">
+
+    </section>
+    <div id="menuRecetas">
+
+    </div>
+
+<button id="selectorIngredientes"> Abrir menu de ingredientes </button>
+
+<div id="modalIngredientes" class="modal" style="display: none;">
+  <div class="ingredientes">
+    <div class="ingredientes-selector">
+      <button class="ing" onclick="mostrarIngredientes('carne')">Carnes</button>
+      <button class="ing" onclick="mostrarIngredientes('marico-pescado')">Maricos y Pescados</button>
+      <button class="ing" onclick="mostrarIngredientes('fruta')">Fruta</button>
+      <button class="ing" onclick="mostrarIngredientes('verdura')">Verduras</button>
+      <button class="ing" onclick="mostrarIngredientes('legumbre')">Legumbres</button>
+      <button class="ing" onclick="mostrarIngredientes('lacteo')">Lácteos</button>
+      <button class="ing" onclick="mostrarIngredientes('cereal-harina')">Cereales y harinas</button>
+      <button class="ing" onclick="mostrarIngredientes('alacena')">Alacena</button>
+      <button class="ing" onclick="mostrarIngredientes('hierba')">Hierbas</button>
+    </div>
+    <section>
+      <div class="ingredientes-container">    </div>
+      <button>Seleccionar todos</button>
+    </section>
     
-  </section>
-  <div id="menuRecetas">
-
   </div>
-  
-</main>
+</div>
 
 
+    
+    
   
+
+
+  </main>
+
+
+
 </body>
+
 </html>

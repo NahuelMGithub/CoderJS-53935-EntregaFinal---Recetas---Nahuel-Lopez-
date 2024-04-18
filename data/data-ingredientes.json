@@ -6,7 +6,7 @@
     {"nombre": "pavo", "tipo": "carne"},
     {"nombre": "ternera", "tipo": "carne"},
     {"nombre": "carne picada", "tipo": "carne"},
-
+  
     {"nombre": "salmón", "tipo": "marico-pescado"},
     {"nombre": "camarones", "tipo": "marico-pescado"},
     {"nombre": "merlusa", "tipo": "marico-pescado"},
@@ -17,7 +17,7 @@
     {"nombre": "uva", "tipo": "fruta"},
     {"nombre": "piña", "tipo": "fruta"},
     {"nombre": "limon", "tipo": "fruta"},
-
+  
     {"nombre": "zanahoria", "tipo": "verdura"},
     {"nombre": "lechuga", "tipo": "verdura"},
     {"nombre": "tomate", "tipo": "verdura"},
@@ -31,27 +31,27 @@
     {"nombre": "papas", "tipo": "verdura"},
     {"nombre": "ajo", "tipo": "verdura"},
     {"nombre": "portobellos", "tipo": "verdura"},
-
+  
     {"nombre": "garbanzo", "tipo": "legumbre"},
     {"nombre": "lenteja", "tipo": "legumbre"},
     {"nombre": "guisante", "tipo": "legumbre"},
         
-    {"nombre": "leche", "tipo": " lacteo"},
-    {"nombre": "yogur", "tipo": " lacteo"},
-    {"nombre": "queso", "tipo": " lacteo"},
-    {"nombre": "mozzarella", "tipo": " lacteo"},
-    {"nombre": "queso rallado", "tipo": " lacteo"},
-    {"nombre": "queso parmesano", "tipo": " lacteo"},
-    {"nombre": "mantequilla", "tipo": " lacteo"},
-    {"nombre": "crema", "tipo": " lacteo"},
- 
+    {"nombre": "leche", "tipo": "lacteo"},
+    {"nombre": "yogur", "tipo": "lacteo"},
+    {"nombre": "queso", "tipo": "lacteo"},
+    {"nombre": "mozzarella", "tipo": "lacteo"},
+    {"nombre": "queso rallado", "tipo": "lacteo"},
+    {"nombre": "queso parmesano", "tipo": "lacteo"},
+    {"nombre": "mantequilla", "tipo": "lacteo"},
+    {"nombre": "crema", "tipo": "lacteo"},
+  
     {"nombre": "fideos", "tipo": "cereal-harina"},
     {"nombre": "tortillas de maíz", "tipo": "cereal-harina"},
     {"nombre": "maíz", "tipo": "cereal-harina"},
     {"nombre": "arroz", "tipo": "cereal-harina"},
     {"nombre": "avena", "tipo": "cereal-harina"},
     {"nombre": "harina", "tipo": "cereal-harina"},
-
+  
     {"nombre": "salsa de tomate", "tipo": "alacena"},
     {"nombre": "salsa de soja", "tipo": "alacena"},
     {"nombre": "huevo", "tipo": "alacena"},
@@ -64,11 +64,10 @@
     {"nombre": "salsa barbacoa", "tipo": "alacena"},
     {"nombre": "miel", "tipo": "alacena"},
     {"nombre": "mostaza", "tipo": "alacena"},
-
+  
     {"nombre": "tomillo fresco", "tipo": "hierba"},
     {"nombre": "perejil fresco", "tipo": "hierba"},
     {"nombre": "orégano fresco", "tipo": "hierba"},
     {"nombre": "romero fresco", "tipo": "hierba"}
     
-]
-
+  ]

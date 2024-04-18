@@ -52,3 +52,22 @@ Swal.fire({
 
 
 // function para document.querySelector('#')
+
+
+
+
+
+//------------------------------ funciones con ASINCRONICAS
+
+function traerIngredientes(){
+  fetch('../data/data-ingredientes.json')
+  .then(respuesta => {
+    return respuesta.json()
+  })
+  .then(datos => {
+    console.log(datos) 
+  })
+  .catch(() => {
+    alertaMensaje("No se pudieron cargar correctamente los ingredientes.")
+  })
+}
