@@ -2,7 +2,7 @@
   {
     "name": "Tarta de Manzana",
     "tiempo": 50,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tarta de Manzana.jpg",
     "ingredientes": [
       {
         "nombre": "manzana",
@@ -18,7 +18,7 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "huevo",
@@ -32,10 +32,11 @@
     "lugar": "Horno",
     "pasos": "1. Precalienta el horno a 180°C. 2. Pela y corta las manzanas en rodajas finas. 3. En un tazón grande, mezcla la harina, el azúcar y la canela. 4. Agrega la mantequilla y mezcla hasta obtener una masa arenosa. 5. Engrasa un molde para tarta y coloca la mitad de la masa en la base. 6. Coloca las rodajas de manzana sobre la masa. 7. Cubre con el resto de la masa. 8. Hornea durante 40-45 minutos o hasta que esté dorada y crujiente."
   },
+
   {
     "name": "Lasaña de Verduras",
     "tiempo": 60,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Lasaña de Verduras.jpg",
     "ingredientes": [
       {
         "nombre": "calabacín",
@@ -51,11 +52,11 @@
       },
       {
         "nombre": "mozzarella",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "queso parmesano",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       }
     ],
     "lugar": "Horno",
@@ -64,11 +65,11 @@
   {
     "name": "Salmón al Horno con Hierbas",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Salmón al Horno con Hierbas.jpg",
     "ingredientes": [
       {
         "nombre": "salmón",
-        "tipo": "marico-pescado"
+        "tipo": "marisco-pescado"
       },
       {
         "nombre": "limon",
@@ -97,7 +98,7 @@
   {
     "name": "Pan de Ajo",
     "tiempo": 35,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pan de Ajo.jpg",
     "ingredientes": [
       {
         "nombre": "pan",
@@ -105,7 +106,7 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "ajo",
@@ -130,6 +131,7 @@
   {
     "name": "Pavo Relleno",
     "tiempo": 180,
+    "img": "img/Pavo Relleno.jpg",
     "ingredientes": [
       {
         "nombre": "pavo",
@@ -153,7 +155,7 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "calditos",
@@ -166,7 +168,7 @@
   {
     "name": "Pastel de Zanahoria",
     "tiempo": 60,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pastel de Zanahoria.jpg",
     "ingredientes": [
       {
         "nombre": "zanahoria",
@@ -195,7 +197,7 @@
   {
     "name": "Tarta de limon",
     "tiempo": 40,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tarta de limon.jpg",
     "ingredientes": [
       {
         "nombre": "limon",
@@ -215,11 +217,11 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "crema",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       }
     ],
     "lugar": "Horno",
@@ -228,7 +230,7 @@
   {
     "name": "Magdalenas de Vainilla",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Magdalenas de Vainilla.jpg",
     "ingredientes": [
       {
         "nombre": "harina",
@@ -244,11 +246,11 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "leche",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       }
     ],
     "lugar": "Horno",
@@ -257,7 +259,7 @@
   {
     "name": "Pollo Asado con  papas",
     "tiempo": 90,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pollo Asado con  papas.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -294,7 +296,7 @@
   {
     "name": "Quiche de espinaca y Queso",
     "tiempo": 50,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Quiche de espinaca y Queso.jpg",
     "ingredientes": [
       {
         "nombre": "espinaca",
@@ -302,7 +304,7 @@
       },
       {
         "nombre": "queso",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "huevo",
@@ -310,7 +312,7 @@
       },
       {
         "nombre": "nata",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "harina",
@@ -318,7 +320,7 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "sal",
@@ -335,7 +337,7 @@
   {
     "name": "Pasta al Horno con Salsa de Tomate",
     "tiempo": 40,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pasta al Horno con Salsa de Tomate.jpg",
     "ingredientes": [
       {
         "nombre": "fideos",
@@ -347,11 +349,11 @@
       },
       {
         "nombre": "mozzarella",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "queso parmesano",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "aceite de oliva",
@@ -372,7 +374,7 @@
   {
     "name": "Tarta de Chocolate",
     "tiempo": 60,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tarta de Chocolate.jpg",
     "ingredientes": [
       {
         "nombre": "harina",
@@ -388,11 +390,11 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "leche",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       }
     ],
     "lugar": "Horno",
@@ -401,7 +403,7 @@
   {
     "name": "Brochetas de Verduras a la Parrilla",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Brochetas de Verduras a la Parrilla.jpg",
     "ingredientes": [
       {
         "nombre": "calabacín",
@@ -442,7 +444,7 @@
   {
     "name": "Filetes de Pollo a la Parrilla con limon y Hierbas",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Filetes de Pollo a la Parrilla con limon y Hierbas.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -483,7 +485,7 @@
   {
     "name": "Bistec a la Parrilla con Salsa de Chimichurri",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Bistec a la Parrilla con Salsa de Chimichurri.jpg",
     "ingredientes": [
       {
         "nombre": "res",
@@ -524,7 +526,7 @@
   {
     "name": "Portobellos a la Parrilla con Queso de Cabra",
     "tiempo": 15,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Portobellos a la Parrilla con Queso de Cabra.jpg",
     "ingredientes": [
       {
         "nombre": "portobellos",
@@ -540,7 +542,7 @@
       },
       {
         "nombre": "queso",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "tomillo fresco",
@@ -565,11 +567,11 @@
   {
     "name": "Brochetas de Camarones y Vegetales",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Brochetas de Camarones y Vegetales.jpg",
     "ingredientes": [
       {
         "nombre": "camarones",
-        "tipo": "marico-pescado"
+        "tipo": "marisco-pescado"
       },
       {
         "nombre": "pimiento",
@@ -606,7 +608,7 @@
   {
     "name": "Costillas de Cerdo a la Parrilla con Salsa Barbacoa",
     "tiempo": 90,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Costillas de Cerdo a la Parrilla con Salsa Barbacoa.jpg",
     "ingredientes": [
       {
         "nombre": "cerdo",
@@ -643,7 +645,7 @@
   {
     "name": "Brochetas de Pollo Teriyaki",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Brochetas de Pollo Teriyaki.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -684,7 +686,7 @@
   {
     "name": "Hamburguesas de Portobello",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Hamburguesas de Portobello.jpg",
     "ingredientes": [
       {
         "nombre": "portobello",
@@ -696,7 +698,7 @@
       },
       {
         "nombre": "queso",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "cebolla",
@@ -725,7 +727,7 @@
   {
     "name": "Parrillada de Verduras",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Parrillada de Verduras.jpg",
     "ingredientes": [
       {
         "nombre": "calabacín",
@@ -770,7 +772,7 @@
   {
     "name": "Pinchos de Pollo con Salsa de Cacahuate",
     "tiempo": 35,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pinchos de Pollo con Salsa de Cacahuate.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -811,7 +813,7 @@
   {
     "name": "Brochetas de Res con Marinada de Chimichurri",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Brochetas de Res con Marinada de Chimichurri.jpg",
     "ingredientes": [
       {
         "nombre": "res",
@@ -856,11 +858,11 @@
   {
     "name": "Salmón a la Parrilla con Salsa de limon y Eneldo",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Salmón a la Parrilla con Salsa de limon y Eneldo.jpg",
     "ingredientes": [
       {
         "nombre": "salmón",
-        "tipo": "pescado"
+        "tipo": "marisco-pescado"
       },
       {
         "nombre": "limon",
@@ -893,7 +895,7 @@
   {
     "name": "Tortilla de espinaca",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tortilla de espinaca.jpg",
     "ingredientes": [
       {
         "nombre": "huevo",
@@ -909,7 +911,7 @@
       },
       {
         "nombre": "queso",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "aceite de oliva",
@@ -930,9 +932,9 @@
   {
     "name": "Pechugas de Pollo al limon",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pechugas de Pollo al limon.jpg",
     "ingredientes": [
-      {
+      { 
         "nombre": "pollo",
         "tipo": "carne"
       },
@@ -963,7 +965,7 @@
   {
     "name": "Tortitas de Plátano",
     "tiempo": 15,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tortitas de Plátano.jpg",
     "ingredientes": [
       {
         "nombre": "plátano",
@@ -988,11 +990,11 @@
   {
     "name": "Tacos de Camarones",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tacos de Camarones.jpg",
     "ingredientes": [
       {
         "nombre": "camarones",
-        "tipo": "mariscos"
+        "tipo": "marisco-pescado"
       },
       {
         "nombre": "tomate",
@@ -1033,7 +1035,7 @@
   {
     "name": "huevo Revueltos con espinaca",
     "tiempo": 15,
-    "img": "../img.cambiar.jpg",
+    "img": "img/huevo Revueltos con espinaca.jpg",
     "ingredientes": [
       {
         "nombre": "huevo",
@@ -1045,11 +1047,11 @@
       },
       {
         "nombre": "queso rallado",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "sal",
@@ -1066,7 +1068,7 @@
   {
     "name": "Tortitas de Avena y Plátano",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tortitas de Avena y Plátano.jpg",
     "ingredientes": [
       {
         "nombre": "plátano",
@@ -1099,7 +1101,7 @@
   {
     "name": "Salteado de Tofu y Verduras",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Salteado de Tofu y Verduras.jpg",
     "ingredientes": [
       {
         "nombre": "tofu",
@@ -1144,7 +1146,7 @@
   {
     "name": "Quesadillas de Champiñones",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Quesadillas de Champiñones.jpg",
     "ingredientes": [
       {
         "nombre": "champiñones",
@@ -1156,7 +1158,7 @@
       },
       {
         "nombre": "queso rallado",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "tortillas de maíz",
@@ -1181,7 +1183,7 @@
   {
     "name": "Tortilla de  papas",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tortilla de  papas.jpg",
     "ingredientes": [
       {
         "nombre": "papas",
@@ -1214,11 +1216,11 @@
   {
     "name": "Salmón a la Parrilla con limon y Hierbas",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Salmón a la Parrilla con limon y Hierbas.jpg",
     "ingredientes": [
       {
         "nombre": "filetes de salmón",
-        "tipo": "pescado"
+        "tipo": "marisco-pescado"
       },
       {
         "nombre": "limon",
@@ -1251,7 +1253,7 @@
   {
     "name": "Fajitas de Pollo",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Fajitas de Pollo.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -1300,7 +1302,7 @@
   {
     "name": "Pancakes de Manzana y Canela",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pancakes de Manzana y Canela.jpg",
     "ingredientes": [
       {
         "nombre": "harina",
@@ -1316,7 +1318,7 @@
       },
       {
         "nombre": "leche",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "azúcar",
@@ -1328,7 +1330,7 @@
       },
       {
         "nombre": "mantequilla",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       }
     ],
     "lugar": "Sartén",
@@ -1337,7 +1339,7 @@
   {
     "name": "Ensalada de Quinoa y Vegetales",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Ensalada de Quinoa y Vegetales.jpg",
     "ingredientes": [
       {
         "nombre": "quinoa",
@@ -1365,7 +1367,7 @@
       },
       {
         "nombre": "queso",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "aceite de oliva",
@@ -1390,7 +1392,7 @@
   {
     "name": "Smoothie de Frutas Tropicales",
     "tiempo": 10,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Smoothie de Frutas Tropicales.jpg",
     "ingredientes": [
       {
         "nombre": "piña",
@@ -1402,7 +1404,7 @@
       },
       {
         "nombre": "yogur",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "naranja",
@@ -1419,7 +1421,7 @@
   {
     "name": "Ensalada de Pasta Mediterránea",
     "tiempo": 15,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Ensalada de Pasta Mediterránea.jpg",
     "ingredientes": [
       {
         "nombre": "fideos",
@@ -1439,7 +1441,7 @@
       },
       {
         "nombre": "queso",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "aceite de oliva",
@@ -1460,7 +1462,7 @@
   {
     "name": "Ensalada de Frutas Frescas",
     "tiempo": 15,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Ensalada de Frutas Frescas.jpg",
     "ingredientes": [
       {
         "nombre": "uva",
@@ -1489,11 +1491,11 @@
   {
     "name": "Bowl de Yogur con Granola y Frutas",
     "tiempo": 10,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Bowl de Yogur con Granola y Frutas.jpg",
     "ingredientes": [
       {
         "nombre": "yogur",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "plátano",
@@ -1510,7 +1512,7 @@
   {
     "name": "Bowl de Avena con Frutas y Frutos Secos",
     "tiempo": 10,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Bowl de Avena con Frutas y Frutos Secos.jpg",
     "ingredientes": [
       {
         "nombre": "avena",
@@ -1518,7 +1520,7 @@
       },
       {
         "nombre": "leche",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       },
       {
         "nombre": "plátano",
@@ -1539,7 +1541,7 @@
   {
     "name": "Bowl de Espaguetis de Calabacín",
     "tiempo": 15,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Bowl de Espaguetis de Calabacín.jpg",
     "ingredientes": [
       {
         "nombre": "calabacín",
@@ -1559,22 +1561,26 @@
       },
       {
         "nombre": "queso parmesano",
-        "tipo": " lacteo"
+        "tipo": "lacteo"
       }
     ],
     "lugar": "Bol",
     "pasos": "1. Con un spiralizer, corta el calabacín en forma de espaguetis y colócalos en un bol grande. 2. Corta los tomates cherry por la mitad y agrégalos al bol junto con las aceitunas negras rebanadas. 3. Corta finamente la albahaca fresca y agrégala al bol. 4. Rocía un poco de aceite de oliva sobre los espaguetis de calabacín y mezcla bien para cubrir. 5. Sazona con sal y pimienta al gusto y mezcla nuevamente. 6. Espolvorea queso parmesano rallado sobre el bowl de espaguetis de calabacín antes de servir. 7. Sirve el bowl de espaguetis de calabacín como acompañamiento o plato principal y disfruta de una comida ligera y saludable."
   },
   {
-    "name": "Guiso de lenteja",
+    "name": "Guiso de lenteja con Carne",
     "tiempo": 40,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Guiso de lenteja.jpg",
     "ingredientes": [
       {
         "nombre": "lenteja",
         "tipo": "legumbre"
       },
       {
+        "nombre": "ternera",
+         "tipo": "carne"
+        },
+        {
         "nombre": "zanahoria",
         "tipo": "verdura"
       },
@@ -1609,7 +1615,7 @@
   {
     "name": "Arroz con Pollo",
     "tiempo": 45,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Arroz con Pollo.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -1654,7 +1660,7 @@
   {
     "name": "Estofado de Ternera",
     "tiempo": 120,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Estofado de Ternera.jpg",
     "ingredientes": [
       {
         "nombre": "ternera",
@@ -1703,7 +1709,7 @@
   {
     "name": "Chili con Carne",
     "tiempo": 60,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Chili con Carne.jpg",
     "ingredientes": [
       {
         "nombre": "carne molida de res",
@@ -1772,7 +1778,7 @@
   {
     "name": "Sopa de Verduras",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Sopa de Verduras.jpg",
     "ingredientes": [
       {
         "nombre": "caldo de verduras",
@@ -1821,7 +1827,7 @@
   {
     "name": "Estofado de Garbanzos",
     "tiempo": 60,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Estofado de Garbanzos.jpg",
     "ingredientes": [
       {
         "nombre": "garbanzo",
@@ -1878,7 +1884,7 @@
   {
     "name": "Guiso de Pollo con Verduras",
     "tiempo": 45,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Guiso de Pollo con Verduras.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -1927,7 +1933,7 @@
   {
     "name": "Pasta con Salsa de Tomate y Albahaca",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pasta con Salsa de Tomate y Albahaca.jpg",
     "ingredientes": [
       {
         "nombre": "pasta",
@@ -1968,7 +1974,7 @@
   {
     "name": "Guiso de lenteja",
     "tiempo": 45,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Guiso de lenteja 2.jpg",
     "ingredientes": [
       {
         "nombre": "lenteja",
@@ -2017,7 +2023,7 @@
   {
     "name": "Puchero de Pollo",
     "tiempo": 60,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Puchero de Pollo.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -2062,7 +2068,7 @@
   {
     "name": "Arroz con Verduras",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Arroz con Verduras.jpg",
     "ingredientes": [
       {
         "nombre": "arroz",
@@ -2107,7 +2113,7 @@
   {
     "name": "Tortilla de Vegetales al Disco",
     "tiempo": 30,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Tortilla de Vegetales al Disco.jpg",
     "ingredientes": [
       {
         "nombre": "huevo",
@@ -2152,7 +2158,7 @@
   {
     "name": "Bife de Chorizo al Disco",
     "tiempo": 20,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Bife de Chorizo al Disco.jpg",
     "ingredientes": [
       {
         "nombre": "ternera",
@@ -2177,7 +2183,7 @@
   {
     "name": "Empanadas de Carne al Disco",
     "tiempo": 40,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Empanadas de Carne al Disco.jpg",
     "ingredientes": [
       {
         "nombre": "carne picada",
@@ -2214,7 +2220,7 @@
   {
     "name": "Pollo al Disco con Vegetales",
     "tiempo": 40,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Pollo al Disco con Vegetales.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -2255,7 +2261,7 @@
   {
     "name": "Bife de Lomo al Disco",
     "tiempo": 25,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Bife de Lomo al Disco.jpg",
     "ingredientes": [
       {
         "nombre": "res",
@@ -2280,7 +2286,7 @@
   {
     "name": "Arroz con Pollo al Disco",
     "tiempo": 45,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Arroz con Pollo al Disco.jpg",
     "ingredientes": [
       {
         "nombre": "pollo",
@@ -2325,7 +2331,7 @@
   {
     "name": "Vegetales Salteados al Disco",
     "tiempo": 15,
-    "img": "../img.cambiar.jpg",
+    "img": "img/Vegetales Salteados al Disco.jpg",
     "ingredientes": [
       {
         "nombre": "calabacín",

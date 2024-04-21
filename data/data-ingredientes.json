@@ -7,9 +7,9 @@
     {"nombre": "ternera", "tipo": "carne"},
     {"nombre": "carne picada", "tipo": "carne"},
   
-    {"nombre": "salmón", "tipo": "marico-pescado"},
-    {"nombre": "camarones", "tipo": "marico-pescado"},
-    {"nombre": "merlusa", "tipo": "marico-pescado"},
+    {"nombre": "salmón", "tipo": "marisco-pescado"},
+    {"nombre": "camarones", "tipo": "marisco-pescado"},
+    {"nombre": "merlusa", "tipo": "marisco-pescado"},
       
     {"nombre": "manzana", "tipo": "fruta"},
     {"nombre": "plátano", "tipo": "fruta"},
@@ -31,6 +31,7 @@
     {"nombre": "papas", "tipo": "verdura"},
     {"nombre": "ajo", "tipo": "verdura"},
     {"nombre": "portobellos", "tipo": "verdura"},
+    {"nombre": "tofu", "tipo": "vegetal"},
   
     {"nombre": "garbanzo", "tipo": "legumbre"},
     {"nombre": "lenteja", "tipo": "legumbre"},
@@ -64,6 +65,7 @@
     {"nombre": "salsa barbacoa", "tipo": "alacena"},
     {"nombre": "miel", "tipo": "alacena"},
     {"nombre": "mostaza", "tipo": "alacena"},
+    {"nombre": "canela", "tipo": "alacena"},
   
     {"nombre": "tomillo fresco", "tipo": "hierba"},
     {"nombre": "perejil fresco", "tipo": "hierba"},

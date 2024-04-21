@@ -1,0 +1,16 @@
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "menuModal.scss";
+//@import "recetasNuevas.scss";
+
+
+
+*{
+    margin: 0;
+}
+
+.body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, $colo-secundary, $colo-primary); 
+}

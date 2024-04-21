@@ -1,0 +1,41 @@
+.selctoresNuevaReceta{
+    margin-bottom: 40px;
+}
+
+.formNuevasRecetas{
+    margin: 15px;
+    width: 1000px;
+    height: 350px;
+    #pasosReceta{
+        border-radius: 25px;
+        padding: 10px;
+        width: 90%;
+        height: 90%;
+        vertical-align: top;
+        resize: none;
+    }
+}
+
+
+#nombreReceta{
+    border-radius: 15px;
+    width: 90%;
+    height: 10%;
+    vertical-align: center;
+    resize: none;
+    padding-left: 10px;
+}
+
+#tiempoReceta{
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    vertical-align: center;
+    resize: none;
+    padding-left: 10px;
+    margin: 10px 25px ;
+}
+
+.error{
+    color: red;
+}
