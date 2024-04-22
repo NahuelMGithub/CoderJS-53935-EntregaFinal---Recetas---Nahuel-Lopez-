@@ -6,9 +6,6 @@ const pasosReceta = $i('pasosReceta')
 btnCrearMiReceta.addEventListener('click', validarYGuardarRecetanEnLS)
 
 
-
-
-
 function validarYGuardarRecetanEnLS() {
     if (ingredientesQueTiene.length == 0) {
         validarCampo("Debe seleccionar al menos un ingrediente")
@@ -50,13 +47,28 @@ function validarCampo(msj){
         text: msj
    });}
 
+let recetasDelUsuario = []
+document.addEventListener("DOMContentLoaded", ()=>{
+    if( JSON.parse(localStorage.getItem('recetasDeUsuario'))) {
+        recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario'))
+    } else{
+        recetasDelUsuario = []
+    }
+})
 
-
-/* function guardarRecetanEnLS(){
-    let recetaUsuario = new Receta (nombreReceta.value, tiempoCocinaUsuario.value, "img/Tarta de Manzana.jpg",
+ function guardarRecetanEnLS(){
+    let recetaUsuario = new Receta (nombreReceta.value, tiempoCocinaUsuario.value, "img/comidaUsuario.jpg",
       ingredientesQueTiene, lugarDeCocinar.value, pasosReceta.value )
-         recetasDelUsuario.push(recetaUsuario)
-         localStorage.setItem("recetasDeUsuario", JSON.stringify(recetasDelUsuario))
-alert(recetasDelUsuario)
+      recetasDelUsuario.push(recetaUsuario)
+      localStorage.setItem("recetasDeUsuario", JSON.stringify(recetasDelUsuario))
+      limpiarFormularioCradorRecetas()
 }
- */
+
+
+function limpiarFormularioCradorRecetas(){
+    nombreReceta.value = ''
+    tiempoCocinaUsuario.value = ''
+    pasosReceta.value = ''
+    lugarDeCocinar.value = 'Indistinto'
+
+}

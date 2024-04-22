@@ -4,19 +4,9 @@
 //-----------------------------------------------------------
 //-----------------------------------------------------------
 
-funciones para crear receta 
-Ver Favoritos (agregar filtros)
-
-local storage:
-al cargar la pagina lee y me marca cuales cree yo mismo
-
-cargar los que creo yo.
-
-
-
-
 //----------
-Al hacer click en Detalle, se abre un modal
+
+Crear receta al importarla desde Local Storage
 
 
 //-----------------------------------------------------------
@@ -25,9 +15,10 @@ Al hacer click en Detalle, se abre un modal
 //-----------------------------------------------------------
 //-----------------------------------------------------------
 
-web en general
-cards
 
+cards
+H2 darle otra tipografia o al menos resaltar
+fondo de la seccion de creacion
 
 
 //-----------------------------------------------------------
@@ -64,3 +55,18 @@ agregar todas las imagenes
 
 Donde dice Logo:
 tiene que ser un signo de pregunta y explica como se usa.
+
+estetica 
+cambiar color de letra 
+cambiar borde de los selectores
+al pasar el mouse arriba de los selectores haga efecto
+header
+Cambio de web cambiar fondo
+cambiar color de btn de ayuda
+
+
+local storage:
+funciones para crear receta 
+guardar y obtener de LS
+
+Al hacer click en Detalle, se abre un modal

@@ -1,58 +1,4 @@
-
-function alertaMensaje(txt){
-    Swal.fire({
-        icon: "error",
-        title: "Oops...",
-        text: txt,
-    });
-}
-
-function modalSwit(){
-    Swal.fire({
-      width: 900,
-        imageUrl: "https://placeholder.pics/svg/300x1500",
-        imageHeight: 1500,
-        imageAlt: "A tall image"
-      });
-}
-
-function guardado(txt){
-    Swal.fire({
-        position: "center",
-        icon: "success",
-        title: txt,
-        showConfirmButton: false,
-        timer: 1500
-      });
-}
-
-function simuladroBuscando(){
-    let timerInterval;
-Swal.fire({
-  title: "Auto close alert!",
-
-  timer: 1000,
-  timerProgressBar: true,
-  didOpen: () => {
-    Swal.showLoading();
-    const timer = Swal.getPopup().querySelector("b");
-    timerInterval = setInterval(() => {
-      timer.textContent = `${Swal.getTimerLeft()}`;
-    }, 100);
-  },
-  willClose: () => {
-    clearInterval(timerInterval);
-  }
-}).then((result) => {
-  /* Read more about handling dismissals below */
-  if (result.dismiss === Swal.DismissReason.timer) {
-    console.log("I was closed by the timer");
-  }
-});
-}
-
-
-// function para document.querySelector('#')
+// function para document.querySelector ---------------------
 
 
 function $i(id) {
@@ -77,12 +23,13 @@ function importarIngredientesYRecetas(){
       return respuesta.json()
     })
     .then(datos => { crearRecetas(datos)
-      return todasLasRecetas
+
+     return todasLasRecetas
     })
-    .catch(() => {
+    .catch(() => {recetasDelUsuario
       alertaMensaje("No se pudieron cargar correctamente las recetas.")
     })
-  fetch('../data/data-ingredientes.json')
+    fetch('../data/data-ingredientes.json')
     .then(respuesta => {
       return respuesta.json()
     })
@@ -102,6 +49,35 @@ function crearRecetas(items) {
   })
 }
 
+//----------------------------------------------- ALERTAS
+
+
+function alertaMensaje(txt){
+  Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: txt,
+  });
+}
+
+function modalSwit(){
+  Swal.fire({
+    width: 900,
+      imageUrl: "https://placeholder.pics/svg/300x1500",
+      imageHeight: 1500,
+      imageAlt: "A tall image"
+    });
+}
+
+function guardado(txt){
+  Swal.fire({
+      position: "center",
+      icon: "success",
+      title: txt,
+      showConfirmButton: false,
+      timer: 1500
+    });
+}
 
 //-------------------- funciones de ayuda
 
@@ -125,6 +101,20 @@ function ayudaBuscar(){
     Selector de ingredientes: Podes anotar Solo los ingredientes que tenes, de forma que únicamente obtengas recetas que puedas cocinar
     Además, podes filtrar recetas por tipo de dieta o lugar dónde quieras cocinar. Una vez que filtres, simplemente hacer click en Mostrar Recetas`,
     icon: "question"
+  });
+}
+
+ function detallesDeReceta(id){
+   const cardAMostrar = $i(id)
+   const imgAMostrar = cardAMostrar.querySelector('img').getAttribute('src');
+   const hijos = cardAMostrar.children
+
+     Swal.fire({
+    title: hijos[0].textContent,
+    text: hijos[3].textContent,
+    imageUrl: imgAMostrar,
+    imageWidth: 400,
+    imageHeight: 200,
   });
 }
 

@@ -32,7 +32,6 @@
     "lugar": "Horno",
     "pasos": "1. Precalienta el horno a 180°C. 2. Pela y corta las manzanas en rodajas finas. 3. En un tazón grande, mezcla la harina, el azúcar y la canela. 4. Agrega la mantequilla y mezcla hasta obtener una masa arenosa. 5. Engrasa un molde para tarta y coloca la mitad de la masa en la base. 6. Coloca las rodajas de manzana sobre la masa. 7. Cubre con el resto de la masa. 8. Hornea durante 40-45 minutos o hasta que esté dorada y crujiente."
   },
-
   {
     "name": "Lasaña de Verduras",
     "tiempo": 60,
@@ -63,6 +62,27 @@
     "pasos": "1. Precalienta el horno a 180°C. 2. Cocina las láminas de lasaña según las instrucciones del paquete. 3. Corta el calabacín y la berenjena en rodajas finas. 4. En una bandeja para hornear, coloca una capa de salsa de tomate, seguida de una capa de láminas de lasaña, una capa de calabacín y berenjena, y una capa de queso mozzarella. Repite este proceso hasta terminar los ingredientes. 5. Espolvorea queso parmesano rallado sobre la última capa. 6. Hornea durante 30-35 minutos o hasta que la lasaña esté burbujeante y dorada."
   },
   {
+    "name": "Pizza",
+    "tiempo": 20,
+    "img": "img/Pizza.jpg",
+    "ingredientes": [
+      {
+        "nombre": "harina",
+        "tipo": "cereal-harina"
+      },
+      {
+        "nombre": "salsa de tomate",
+        "tipo": "alacena"
+      },
+      {
+        "nombre": "mozzarella",
+        "tipo": "lacteo"
+      }
+    ],
+    "lugar": "Horno",
+    "pasos": "Hornea las pizzas en el horno precalentado durante unos 12-15 minutos o hasta que la masa esté dorada y el queso burbujeante.  Retira las pizzas del horno y deja enfriar durante unos minutos antes de cortarlas y servirlas."
+  },
+  {
     "name": "Salmón al Horno con Hierbas",
     "tiempo": 20,
     "img": "img/Salmón al Horno con Hierbas.jpg",
@@ -83,7 +103,7 @@
         "nombre": "aceite de oliva",
         "tipo": "alacena"
       },
-         {
+      {
         "nombre": "tomillo fresco",
         "tipo": "hierba"
       }
@@ -930,7 +950,7 @@
     "tiempo": 25,
     "img": "img/Pechugas de Pollo al limon.jpg",
     "ingredientes": [
-      { 
+      {
         "nombre": "pollo",
         "tipo": "carne"
       },
@@ -1574,9 +1594,9 @@
       },
       {
         "nombre": "ternera",
-         "tipo": "carne"
-        },
-        {
+        "tipo": "carne"
+      },
+      {
         "nombre": "zanahoria",
         "tipo": "verdura"
       },

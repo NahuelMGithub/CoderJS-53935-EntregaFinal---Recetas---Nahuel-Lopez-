@@ -2,26 +2,42 @@
 let todosLosIngredientes = []
 let todasLasRecetas = []
 let ingredientesQueTiene = []
+
 importarIngredientesYRecetas()
+//let recetasDelUsuario = []
+document.addEventListener("DOMContentLoaded", ()=>{
+    if( JSON.parse(localStorage.getItem('recetasDeUsuario'))) {
+        recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario'))
+    } else{
+        recetasDelUsuario = []
+    }
+
+    recetasDelUsuario.forEach(receta => todasLasRecetas.push(receta))
+})
+
+
+
 
 //------------------------- dibujar la receta
 
 
 
 function dibujarMenu(recetas) {
+  let idCard = 100
   const contenedorRecetas = document.querySelector('#menuRecetas');
   let html = "";
-  recetas.forEach(({ name, tiempo, rutaImagen, ingredientes, lugar, pasos, }) => {
+  recetas.forEach(({ name, tiempo, rutaImagen, ingredientes, lugar, pasos }) => {
+    idCard+=1
     html += ` 
   <div class="card" style="width: 18rem;">
-        <div class="card-body">
+        <div class="card-body" id=${idCard}>
               <h5 class="card-title">${name}</h5>
               <p class="card-text">Ingredientes: ${detallesIngredientes(ingredientes)}</p>
-              <p class="card-text">Modo de cocinar: ${lugar}</p>
+               <p class="card-text">Modo de cocinar: ${lugar}</p>
               <p class="card-text">Pasos: ${pasos}</p>
               <p class="card-text">Tiempo estimado: ${tiempo}</p>
                <img src= "${rutaImagen}"/>
-              <a href="#" class="btn btn-primary agregarAFavoritos" >Agregar a Favoritos.</a>
+              <button class="btn btn-primary agregarAFavoritos" onclick="detallesDeReceta(${idCard})" >Ver detalles.</button>
             </div>
           </div>
   `
@@ -88,7 +104,8 @@ btnParaMostrarRecetas.addEventListener('click', buscarRecetas)
 
 function buscarRecetas() {
 
-  let recetasFltradas = todasLasRecetas
+  let recetasFltradas = todasLasRecetas 
+
 
   if(lugarDeCocinar.value != "Indistinto"){
     recetasFltradas = recetasFltradas.filter(receta => receta.lugar == lugarDeCocinar.value)

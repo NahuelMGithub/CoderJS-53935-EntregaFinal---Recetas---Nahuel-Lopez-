@@ -31,8 +31,8 @@
     {"nombre": "papas", "tipo": "verdura"},
     {"nombre": "ajo", "tipo": "verdura"},
     {"nombre": "portobellos", "tipo": "verdura"},
-    {"nombre": "tofu", "tipo": "vegetal"},
-  
+
+    {"nombre": "tofu", "tipo": "legumbre"},
     {"nombre": "garbanzo", "tipo": "legumbre"},
     {"nombre": "lenteja", "tipo": "legumbre"},
     {"nombre": "guisante", "tipo": "legumbre"},
