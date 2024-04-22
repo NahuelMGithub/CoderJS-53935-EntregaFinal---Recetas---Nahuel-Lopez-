@@ -83,11 +83,7 @@
         "nombre": "aceite de oliva",
         "tipo": "alacena"
       },
-      {
-        "nombre": "salvia fresca",
-        "tipo": "verdura"
-      },
-      {
+         {
         "nombre": "tomillo fresco",
         "tipo": "hierba"
       }

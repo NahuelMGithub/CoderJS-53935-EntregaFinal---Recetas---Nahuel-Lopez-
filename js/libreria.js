@@ -107,7 +107,7 @@ function crearRecetas(items) {
 
 function ayudaCrear(){
   Swal.fire({
-    title: "Cómo crear una receta?",
+    title: "¿Cómo crear una receta?",
     text: `Simplemente selecciona los ingredientes se requieren
     Escribe el nombre de la receta
     Coloca el lugar donde se cocinara
@@ -120,10 +120,11 @@ function ayudaCrear(){
 
 function ayudaBuscar(){
   Swal.fire({
-    title: "Cómo Buscar recetas?",
+    title: "¿Cómo Buscar recetas?",
     text: `Podes usar uno o más criterios juntos
     Selector de ingredientes: Podes anotar Solo los ingredientes que tenes, de forma que únicamente obtengas recetas que puedas cocinar
     Además, podes filtrar recetas por tipo de dieta o lugar dónde quieras cocinar. Una vez que filtres, simplemente hacer click en Mostrar Recetas`,
     icon: "question"
   });
 }
+

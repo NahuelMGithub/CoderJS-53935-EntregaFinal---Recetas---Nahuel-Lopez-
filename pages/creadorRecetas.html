@@ -10,15 +10,15 @@
   <link rel="stylesheet" href="../css/style.css">
 
   <script src="../js/libreria.js" defer></script>
-   <script src="../js/app-recetas.js" defer></script>
-   <script src="../js/crearRecetas.js" defer></script>
+  <script src="../js/app-recetas.js" defer></script>
+  <script src="../js/crearRecetas.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
   <header class="header">
     <nav class="nav-sup">
-      <button class="header-link"  onclick="ayudaCrear()">?</button>
+      <button class="ayuda" onclick="ayudaCrear()">?</button>
       <h2>
         Crea tus propias recetas.
       </h2>
@@ -43,7 +43,7 @@
               <option value="Bol">Bol</option>
             </select>
           </div>
-          <div class="selectorReceta aptas"  style="display: none;">
+          <div class="selectorReceta aptas" style="display: none;">
             <h3>Dieta</h3>
             <select id="seleccion-dieta" class="form-select">
               <option value="Indistinto">Indistinto </option>
@@ -52,22 +52,29 @@
               <option value="Vegano">Vegano </option>
             </select>
           </div>
-         </section>
-         <section class="formNuevasRecetas">
-          <form class="formNuevasRecetas">
-            <form class="formNuevasRecetas">
-                <textarea name="nombreReceta" id="nombreReceta" placeholder="ingrese el Nombre Receta"></textarea>
-                <label> <h4>Cuanto tiempo tarda en hacer la receta en minutos:</h4> </label><input type="number" id="tiempoReceta" min="0"></input>
-                <textarea name="pasosReceta" id="pasosReceta" placeholder="Escriba los pasos de su receta"></textarea>
-            </form>
-         
-        </form>
-         </section>
+        </section>
+        <section class="formNuevasRecetas">
+
+          <form>
+            <div class="mb-3">
+              <label for="nombreReceta" class="form-label">Nombre de tu receta</label>
+              <input type="text" class="form-control" id="nombreReceta" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="tiempoDePreparación" class="form-label">Tiempo De Preparación (en minutos)</label>
+              <input type="number" min="1" class="form-control" id="tiempoDePreparación">
+            </div>
+            <div class="mb-3">
+              <label for="pasosReceta" class="form-label">Nombre de tu receta</label>
+              <textarea class="form-control" id="pasosReceta" style="min-height: 150px;"></textarea>
+            </div>
+          </form>
+        </section>
         <section class="contenedorDeBtnPrincipal">
           <button id="btnMostrarRecetas" class="btn btn-primary" style="display: none;"> Mostrar Recetas</button>
           <button id="btnCrearMiReceta" class="btn btn-primary"> Crear mi receta</button>
         </section>
-      </article> 
+      </article>
 
     </nav>
   </header>
@@ -80,25 +87,54 @@
     <div id="menuRecetas" style="display: none;"> </div>
 
 
-      
-      
-
-    
-
-
-
     <div id="modalIngredientes" class="modal" style="display: none;">
       <div class="modal-content">
         <div class="ingredientes-selector">
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('carne', 'c-container')">Carnes</button></section> <section id="c-container" class="listaIngredientesContainer"></section></div> 
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('marico-pescado', 'm-p-container')">Maricos y Pescados</button></section> <section id="m-p-container" class="listaIngredientesContainer"></section></div>
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('fruta', 'f-container')">Fruta</button> </section><section id="f-container" class="listaIngredientesContainer"></section></div>
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('verdura', 'v-container')">Verduras</button></section> <section id="v-container" class="listaIngredientesContainer"></section></div>
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('legumbre', 'l-container')">Legumbres</button></section> <section id="l-container" class="listaIngredientesContainer"></section></div>
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('lacteo', 'lac-container')">Lácteos</button></section> <section id="lac-container" class="listaIngredientesContainer"></section></div>
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('cereal-harina', 'c-h-container')">Cereales y harinas</button> </section><section id="c-h-container" class="listaIngredientesContainer"></section></div>
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('alacena', 'a-container')">Alacena</button> </section><sectio id="a-container" class="listaIngredientesContainer"></sectio></div>
-        <div class="ingredientes-selector_tipo"> <section class="ingBtn"> <button class="ing btn btn-secondary" onclick="mostrarIngredientes('hierba', 'h-container')">Hierbas</button> </section><section id="h-container" class="listaIngredientesContainer"</section></div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('carne', 'c-container')">Carnes</button></section>
+            <section id="c-container" class="listaIngredientesContainer"></section>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('marisco-pescado', 'm-p-container')">Maricos y Pescados</button></section>
+            <section id="m-p-container" class="listaIngredientesContainer"></section>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('fruta', 'f-container')">Fruta</button> </section>
+            <section id="f-container" class="listaIngredientesContainer"></section>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('verdura', 'v-container')">Verduras</button></section>
+            <section id="v-container" class="listaIngredientesContainer"></section>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('legumbre', 'l-container')">Legumbres</button></section>
+            <section id="l-container" class="listaIngredientesContainer"></section>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('lacteo', 'lac-container')">Lácteos</button></section>
+            <section id="lac-container" class="listaIngredientesContainer"></section>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('cereal-harina', 'c-h-container')">Cereales y harinas</button> </section>
+            <section id="c-h-container" class="listaIngredientesContainer"></section>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('alacena', 'a-container')">Alacena</button> </section>
+            <sectio id="a-container" class="listaIngredientesContainer"></sectio>
+          </div>
+          <div class="ingredientes-selector_tipo">
+            <section class="ingBtn"> <button class="ing btn btn-secondary"
+                onclick="mostrarIngredientes('hierba', 'h-container')">Hierbas</button> </section>
+            <section id="h-container" class="listaIngredientesContainer" </section>
+          </div>
         </div>
         <section>
 

@@ -9,7 +9,7 @@ Ver Favoritos (agregar filtros)
 
 local storage:
 al cargar la pagina lee y me marca cuales cree yo mismo
-los Favoritos
+
 cargar los que creo yo.
 
 
