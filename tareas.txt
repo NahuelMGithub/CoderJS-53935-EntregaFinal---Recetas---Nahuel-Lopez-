@@ -6,7 +6,8 @@
 //-----------------------------------------------------------
 //-----------------------------------------------------------
 
-Revision Final
+Revision Final  --- creo q el problema con git es la ruta 
+si sigue ese problema, voy a hacer dos fech, uno para pagina
 git 
 Mandar a corregir
 

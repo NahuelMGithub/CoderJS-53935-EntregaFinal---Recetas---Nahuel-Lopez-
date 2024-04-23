@@ -3,6 +3,7 @@ let todosLosIngredientes = []
 let todasLasRecetas = []
 let ingredientesQueTiene = []
 
+
 importarIngredientesYRecetas()
 
 document.addEventListener("DOMContentLoaded", () => {

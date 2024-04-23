@@ -26,10 +26,8 @@
     flex-wrap: wrap; 
     justify-content: space-between;
     padding: 10px;
-    background-image: url("/img/fondos/fondo2.jpg");
-   
-   
-
+    background-image: url("img/fondos/fondo2.jpg");
+ 
 }
 
 .card{
@@ -37,6 +35,7 @@
     height: 400px;
    overflow-y: hidden;
    margin-bottom: 20px;
+   border: 1px solid black;
   
    img{
     width: 100%;
@@ -50,9 +49,10 @@
 
 .card:hover{
     overflow-y: scroll;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
  }
 
-//#btnBuscadorDeRecetas
+
  .btnPrincipal {
    
     background-image: linear-gradient(to bottom right,  $colo-secundary, $colo-primary);
@@ -66,7 +66,6 @@
     transition: 0.7s;
 
 }
-
 //#btnBuscadorDeRecetas:hover
 .btnPrincipal:hover {
     color: black;
