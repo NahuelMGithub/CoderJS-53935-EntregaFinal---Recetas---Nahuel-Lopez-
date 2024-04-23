@@ -260,7 +260,7 @@
 .body {
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, rgb(101, 98, 210), #feb47b);
-  background-image: url("/img/fondos/fondo1.jpg");
+  background-image: url("../img/fondos/fondo1.jpg");
 }
 
 .oleo-script-regular {
