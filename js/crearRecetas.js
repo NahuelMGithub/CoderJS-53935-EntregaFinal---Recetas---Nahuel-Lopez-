@@ -1,10 +1,8 @@
 const btnCrearMiReceta = document.querySelector('#btnCrearMiReceta')
-//const tiempoCocinaUsuario = document.getElementById('tiempoDePreparación')
 const nombreReceta = $i('nombreReceta')
 const tiempoCocinaUsuario = $i('tiempoDePreparación')
 const pasosReceta = $i('pasosReceta')
 btnCrearMiReceta.addEventListener('click', validarYGuardarRecetanEnLS)
-
 
 function validarYGuardarRecetanEnLS() {
     if (ingredientesQueTiene.length == 0) {
@@ -22,7 +20,6 @@ function validarYGuardarRecetanEnLS() {
 
     } else if (pasosReceta.value.length < 20) {
         validarCampo("La receta debe tener al menos 20 caracteres")
-
     }
     else {
         guardarRecetanEnLS()
@@ -33,12 +30,8 @@ function validarYGuardarRecetanEnLS() {
             showConfirmButton: false,
             timer: 1500
           })
-          //reinciarCreador()
-       
-    } 
-
-  
-}
+        } 
+ }
 
 function validarCampo(msj){
     Swal.fire({
@@ -48,13 +41,11 @@ function validarCampo(msj){
    });}
 
 let recetasDelUsuario = []
-document.addEventListener("DOMContentLoaded", ()=>{
-    if( JSON.parse(localStorage.getItem('recetasDeUsuario'))) {
-        recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario'))
-    } else{
-        recetasDelUsuario = []
-    }
-})
+
+document.addEventListener("DOMContentLoaded", () => {
+    JSON.parse(localStorage.getItem('recetasDeUsuario'))? recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario')) : recetasDelUsuario = []
+  })
+
 
  function guardarRecetanEnLS(){
     let recetaUsuario = new Receta (nombreReceta.value, tiempoCocinaUsuario.value, "img/comidaUsuario.jpg",

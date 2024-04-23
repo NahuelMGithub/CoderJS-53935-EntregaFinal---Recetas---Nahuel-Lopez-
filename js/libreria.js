@@ -48,7 +48,6 @@ function crearRecetas(items) {
 
 //----------------------------------------------- ALERTAS
 
-
 function alertaMensaje(txt){
   Swal.fire({
       icon: "error",
@@ -106,7 +105,7 @@ function ayudaBuscar(){
    const imgAMostrar = cardAMostrar.querySelector('img').getAttribute('src');
    const hijos = cardAMostrar.children
 
-     Swal.fire({
+    Swal.fire({
     title: hijos[0].textContent,
     text: hijos[4].textContent,
     imageUrl: imgAMostrar,

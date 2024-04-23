@@ -6,7 +6,6 @@
 //-----------------------------------------------------------
 //-----------------------------------------------------------
 
-Optimizar
 Revision Final
 git 
 Mandar a corregir
@@ -27,6 +26,7 @@ Mandar a corregir
 
 Crear receta al importarla desde Local Storage
 
+Optimizar
 
 
 alertaMensajes

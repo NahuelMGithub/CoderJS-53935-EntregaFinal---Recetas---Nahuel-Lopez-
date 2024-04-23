@@ -5,19 +5,9 @@ let ingredientesQueTiene = []
 
 importarIngredientesYRecetas()
 
-/* document.addEventListener("DOMContentLoaded", () => {
-  if (JSON.parse(localStorage.getItem('recetasDeUsuario'))) {
-    recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario'))
-  } else {
-    recetasDelUsuario = []
-  }
-
-}) */
-
 document.addEventListener("DOMContentLoaded", () => {
   JSON.parse(localStorage.getItem('recetasDeUsuario'))? recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario')) : recetasDelUsuario = []
 })
-
 
 
 function incorporarRecetasDeUsuario() {
@@ -28,8 +18,6 @@ function incorporarRecetasDeUsuario() {
   })
   todasLasRecetasDelUsuario.forEach(receta => todasLasRecetas.push(receta))
 }
-
-
 
 function ingredientesDeReceta(nombreIngredientesImportados) {
   let ingredientesImportados = [];
@@ -45,8 +33,6 @@ function ingredientesDeReceta(nombreIngredientesImportados) {
 }
 
 //------------------------- dibujar la receta
-
-
 
 function dibujarMenu(recetas) {
   let idCard = 100
@@ -83,12 +69,12 @@ function detallesIngredientes(listadoIngredientes) {
 //-------------------------Creador de Receta----------------------------------------------------------------------------------------------
 class Receta {
   constructor(name, tiempo, rutaImagen, ingredientes, lugar, pasos) {
-    this.name = name; // String, indica el nombre de la comida
-    this.pasos = pasos; // es un string contando los pasos
-    this.ingredientes = ingredientes; // es una lista de ingredientes
-    this.lugar = lugar; // es unlistado delas formas posibles para cocinarlo. 
-    this.tiempo = tiempo; // tiempo que se tarda en cocinar
-    this.rutaImagen = rutaImagen; // tiempo que se tarda en cocinar
+    this.name = name; 
+    this.pasos = pasos; 
+    this.ingredientes = ingredientes; 
+    this.lugar = lugar; 
+    this.tiempo = tiempo; 
+    this.rutaImagen = rutaImagen; 
   }
   listaNombresIngredientes() {
     let ingredientesTotales = this.ingredientes.map(ingrediente => ingrediente.nombre);
@@ -122,7 +108,6 @@ class Receta {
 
 //------------------------  filtros------------------------------------------------------------------------------------------------------
 
-
 const lugarDeCocinar = document.querySelector('#seleccion-formaCocina')
 const dietaCocina = document.querySelector('#seleccion-dieta')
 const btnParaMostrarRecetas = document.querySelector('#btnMostrarRecetas')
@@ -133,7 +118,6 @@ function buscarRecetas() {
   recetasDelUsuario = []
 
   let recetasFltradas = todasLasRecetas
-
 
   if (lugarDeCocinar.value != "Indistinto") {
     recetasFltradas = recetasFltradas.filter(receta => receta.lugar == lugarDeCocinar.value)
@@ -148,13 +132,10 @@ function buscarRecetas() {
   if (ingredientesQueTiene.length) {
     recetasFltradas = recetasFltradas.filter(receta => receta.listaNombresIngredientes().every(ingrediente => ingredientesQueTiene.includes(ingrediente)))
   }
-
   buscarYMostrar(recetasFltradas)
-
 }
 
 function buscarYMostrar(recetasFltradas) {
-
   let timerInterval;
   Swal.fire({
     title: "Buscando",
@@ -194,14 +175,12 @@ function closeModal() {
 }
 
 function mostrarIngredientes(tipo, lugar) {
-
   const ingredientesContainer = document.getElementById(lugar);
   ingredientesContainer.innerHTML = '';
   let ingredientes = []
   ingredientes = todosLosIngredientes
     .filter(ingrediente => ingrediente.tipo === tipo)
     .map(ingrediente => ingrediente.nombre);
-
   ingredientes.forEach(ingrediente => {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
@@ -212,28 +191,19 @@ function mostrarIngredientes(tipo, lugar) {
     ingredientesContainer.appendChild(checkbox);
     ingredientesContainer.appendChild(label);
   });
-
 }
-
-
 
 const btnGuardarModal = document.querySelector('#btnGuardarModal')
 btnGuardarModal.addEventListener('click', guardarModal)
 
 function guardarModal() {
-
   ingredientesQueTiene = []
-  checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+  checkboxes = $$('input[type="checkbox"]:checked');
   checkboxes.forEach(function (checkbox) {
     ingredientesQueTiene.push(checkbox.id)
   });
   closeModal()
 }
-//-------------------------------------------------------------------------------------------------
-
-
-
-
 
 
 
