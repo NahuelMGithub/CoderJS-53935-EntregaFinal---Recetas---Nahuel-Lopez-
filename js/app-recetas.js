@@ -4,19 +4,45 @@ let todasLasRecetas = []
 let ingredientesQueTiene = []
 
 importarIngredientesYRecetas()
-//let recetasDelUsuario = []
-document.addEventListener("DOMContentLoaded", ()=>{
-    if( JSON.parse(localStorage.getItem('recetasDeUsuario'))) {
-        recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario'))
-    } else{
-        recetasDelUsuario = []
-    }
 
-    recetasDelUsuario.forEach(receta => todasLasRecetas.push(receta))
+/* document.addEventListener("DOMContentLoaded", () => {
+  if (JSON.parse(localStorage.getItem('recetasDeUsuario'))) {
+    recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario'))
+  } else {
+    recetasDelUsuario = []
+  }
+
+}) */
+
+document.addEventListener("DOMContentLoaded", () => {
+  JSON.parse(localStorage.getItem('recetasDeUsuario'))? recetasDelUsuario = JSON.parse(localStorage.getItem('recetasDeUsuario')) : recetasDelUsuario = []
 })
 
 
 
+function incorporarRecetasDeUsuario() {
+  let todasLasRecetasDelUsuario = []
+  recetasDelUsuario.forEach(receta => {
+    let nuevaRecetaUsuario = new Receta(receta.name, receta.tiempo, receta.rutaImagen, ingredientesDeReceta(receta.ingredientes), receta.lugar, receta.pasos)
+    todasLasRecetasDelUsuario.push(nuevaRecetaUsuario)
+  })
+  todasLasRecetasDelUsuario.forEach(receta => todasLasRecetas.push(receta))
+}
+
+
+
+function ingredientesDeReceta(nombreIngredientesImportados) {
+  let ingredientesImportados = [];
+  for (let nombreIngrediente of nombreIngredientesImportados) {
+   for (let ingrediente of todosLosIngredientes) {
+      if (nombreIngrediente === ingrediente.nombre) {
+        ingredientesImportados.push(ingrediente);
+        break;
+      }
+    }
+  }
+  return ingredientesImportados;
+}
 
 //------------------------- dibujar la receta
 
@@ -27,17 +53,17 @@ function dibujarMenu(recetas) {
   const contenedorRecetas = document.querySelector('#menuRecetas');
   let html = "";
   recetas.forEach(({ name, tiempo, rutaImagen, ingredientes, lugar, pasos }) => {
-    idCard+=1
+    idCard += 1
     html += ` 
   <div class="card" style="width: 18rem;">
         <div class="card-body" id=${idCard}>
               <h5 class="card-title">${name}</h5>
+              <img src= "${rutaImagen}"/>
               <p class="card-text">Ingredientes: ${detallesIngredientes(ingredientes)}</p>
                <p class="card-text">Modo de cocinar: ${lugar}</p>
               <p class="card-text">Pasos: ${pasos}</p>
               <p class="card-text">Tiempo estimado: ${tiempo}</p>
-               <img src= "${rutaImagen}"/>
-              <button class="btn btn-primary agregarAFavoritos" onclick="detallesDeReceta(${idCard})" >Ver detalles.</button>
+               <button class="btn btn-primary agregarAFavoritos" onclick="detallesDeReceta(${idCard})" >Ver detalles.</button>
             </div>
           </div>
   `
@@ -71,7 +97,7 @@ class Receta {
   esVegetariano() {
     let esVegetariano = true;
     this.ingredientes.forEach(ingrediente => {
-     if (ingrediente.tipo === "carne" || ingrediente.tipo === "marisco-pescado" ) {esVegetariano = false}
+      if (ingrediente.tipo === "carne" || ingrediente.tipo === "marisco-pescado") { esVegetariano = false }
     })
     return esVegetariano;
   }
@@ -103,11 +129,13 @@ const btnParaMostrarRecetas = document.querySelector('#btnMostrarRecetas')
 btnParaMostrarRecetas.addEventListener('click', buscarRecetas)
 
 function buscarRecetas() {
+  incorporarRecetasDeUsuario()
+  recetasDelUsuario = []
 
-  let recetasFltradas = todasLasRecetas 
+  let recetasFltradas = todasLasRecetas
 
 
-  if(lugarDeCocinar.value != "Indistinto"){
+  if (lugarDeCocinar.value != "Indistinto") {
     recetasFltradas = recetasFltradas.filter(receta => receta.lugar == lugarDeCocinar.value)
   }
 
@@ -115,13 +143,13 @@ function buscarRecetas() {
     dietaCocina.value == 'Vegetariano' && (recetasFltradas = recetasFltradas.filter(receta => receta.esVegetariano()))
     dietaCocina.value == 'Vegano' && (recetasFltradas = recetasFltradas.filter(receta => receta.esVegano()))
     dietaCocina.value == 'Celiaco' && (recetasFltradas = recetasFltradas.filter(receta => receta.esAptoCeliaco()))
-}
+  }
 
-if (ingredientesQueTiene.length) {
-  recetasFltradas = recetasFltradas.filter(receta => receta.listaNombresIngredientes().every(ingrediente => ingredientesQueTiene.includes(ingrediente)))
-}
+  if (ingredientesQueTiene.length) {
+    recetasFltradas = recetasFltradas.filter(receta => receta.listaNombresIngredientes().every(ingrediente => ingredientesQueTiene.includes(ingrediente)))
+  }
 
-buscarYMostrar(recetasFltradas) 
+  buscarYMostrar(recetasFltradas)
 
 }
 
@@ -134,11 +162,11 @@ function buscarYMostrar(recetasFltradas) {
     timer: 1500,
     timerProgressBar: true,
     didOpen: () => {
-      Swal.showLoading();   
+      Swal.showLoading();
     },
     willClose: () => {
       clearInterval(timerInterval);
-      recetasFltradas.length?  dibujarMenu(recetasFltradas) : alertaMensaje("No hay recetas con esos criterios.")
+      recetasFltradas.length ? dibujarMenu(recetasFltradas) : alertaMensaje("No hay recetas con esos criterios.")
     }
   }).then((result) => {
     if (result.dismiss === Swal.DismissReason.timer) {
@@ -146,7 +174,7 @@ function buscarYMostrar(recetasFltradas) {
     }
   });
 }
-  
+
 //---------------------------------------  Modal --------------------------------------------------------------------------------------------------------------
 
 const btnModalIngredientes = document.querySelector('#selectorIngredientes')
@@ -183,7 +211,7 @@ function mostrarIngredientes(tipo, lugar) {
     label.setAttribute('for', ingrediente);
     ingredientesContainer.appendChild(checkbox);
     ingredientesContainer.appendChild(label);
-   });
+  });
 
 }
 
@@ -197,7 +225,7 @@ function guardarModal() {
   ingredientesQueTiene = []
   checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
   checkboxes.forEach(function (checkbox) {
-      ingredientesQueTiene.push(checkbox.id)
+    ingredientesQueTiene.push(checkbox.id)
   });
   closeModal()
 }

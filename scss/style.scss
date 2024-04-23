@@ -2,7 +2,7 @@
 @import "main.scss";
 @import "footer.scss";
 @import "menuModal.scss";
-//@import "recetasNuevas.scss";
+@import "recetasNuevas.scss";
 
 
 
@@ -15,4 +15,18 @@
     background-image: linear-gradient(to bottom right, $colo-secundary, $colo-primary); 
     background-image: url("/img/fondos/fondo1.jpg");
     
+
 }
+
+
+.oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px; 
+    text-shadow: 
+        1px 1px 0 white,   /* Borde superior-izquierdo */
+        -1px -1px 0 white, /* Borde inferior-derecho */
+        1px -1px 0 white,  /* Borde superior-derecho */
+        -1px 1px 0 white;  /* Borde inferior-izquierdo */
+  }

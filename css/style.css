@@ -103,7 +103,7 @@
 .card {
   width: 200px;
   height: 400px;
-  overflow-y: scroll;
+  overflow-y: hidden;
   margin-bottom: 20px;
 }
 .card img {
@@ -112,6 +112,10 @@
 .card .agregarAFavoritos {
   margin-top: 10px;
   margin-left: 20%;
+}
+
+.card:hover {
+  overflow-y: scroll;
 }
 
 .btnPrincipal {
@@ -238,6 +242,17 @@
   border: 1px solid black;
 }
 
+#formNuevasRecetas {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  background-image: linear-gradient(to bottom right, #feb47b, rgb(101, 98, 210));
+}
+#formNuevasRecetas label {
+  font-size: larger;
+}
+
 * {
   margin: 0;
 }
@@ -246,6 +261,14 @@
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, rgb(101, 98, 210), #feb47b);
   background-image: url("/img/fondos/fondo1.jpg");
+}
+
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white; /* Borde inferior-izquierdo */
 }
 
 /*# sourceMappingURL=style.css.map */

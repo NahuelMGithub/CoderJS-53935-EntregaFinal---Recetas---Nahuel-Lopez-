@@ -1,6 +1,5 @@
 // function para document.querySelector ---------------------
 
-
 function $i(id) {
   return document.getElementById(id);
 }
@@ -14,7 +13,6 @@ function $$(selector) {
 }
 
 
-
 //------------------------------ funciones con ASINCRONICAS
 
 function importarIngredientesYRecetas(){ 
@@ -23,7 +21,6 @@ function importarIngredientesYRecetas(){
       return respuesta.json()
     })
     .then(datos => { crearRecetas(datos)
-
      return todasLasRecetas
     })
     .catch(() => {recetasDelUsuario
@@ -35,9 +32,9 @@ function importarIngredientesYRecetas(){
     })
       .then(datos => {
       datos.forEach((dato) => todosLosIngredientes.push(dato))
-      return todosLosIngredientes
+       return todosLosIngredientes
     })
-      .catch(() => {
+       .catch(() => {
       alertaMensaje("No se pudieron cargar correctamente los ingredientes.")
     })
 }
@@ -111,7 +108,7 @@ function ayudaBuscar(){
 
      Swal.fire({
     title: hijos[0].textContent,
-    text: hijos[3].textContent,
+    text: hijos[4].textContent,
     imageUrl: imgAMostrar,
     imageWidth: 400,
     imageHeight: 200,
