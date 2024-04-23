@@ -16,7 +16,7 @@ function $$(selector) {
 //------------------------------ funciones con ASINCRONICAS
 
 function importarIngredientesYRecetas(){ 
-  fetch('../data/data-recetas.json')
+  fetch('data/data-recetas.json')
     .then(respuesta => {
       return respuesta.json()
     })
@@ -26,7 +26,7 @@ function importarIngredientesYRecetas(){
     .catch(() => {recetasDelUsuario
       alertaMensaje("No se pudieron cargar correctamente las recetas.")
     })
-    fetch('../data/data-ingredientes.json')
+    fetch('data/data-ingredientes.json')
     .then(respuesta => {
       return respuesta.json()
     })

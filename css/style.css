@@ -97,7 +97,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px;
-  background-image: url("img/fondos/fondo2.jpg");
+  background-image: url("../img/fondos/fondo2.jpg");
 }
 
 .card {
